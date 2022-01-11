@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "066cc1aa66be16313fda280ea19269b6",
+    "name" : "TC_REF_GREEN_001 Regression suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "237e445fad6b10d2211e9b25aec0a04c",
+    "name" : "TC_REF_BLUE_002 Regression suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "39c7b9b0281b6ad4c82a43ffffb9d97a",
+    "name" : "TC_REF_GREEN_002 Regression suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "8614aa94f32e094c2d500226766d3586",
+    "name" : "TC_REF_BLUE_001 Regression suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "0bd80c3805881f31ae0c7b1d98bd4811",
+    "name" : "TC_WO_REF_GREEN_001 Regression suite",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

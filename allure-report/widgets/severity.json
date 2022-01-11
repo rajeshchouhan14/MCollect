@@ -1,0 +1,51 @@
+[ {
+  "uid" : "fea2731c38b835b0",
+  "name" : "Green team user provide information about request",
+  "time" : {
+    "start" : 1641886291269,
+    "stop" : 1641886336047,
+    "duration" : 44778
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8f6c8417e894f12",
+  "name" : "Blue team user provide information about request",
+  "time" : {
+    "start" : 1641886290354,
+    "stop" : 1641886337671,
+    "duration" : 47317
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c158470c2a44c2d4",
+  "name" : "User submit request with reference as blue team",
+  "time" : {
+    "start" : 1641886291317,
+    "stop" : 1641886334718,
+    "duration" : 43401
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f21fba2ffbe54385",
+  "name" : "User submit request with reference as green team",
+  "time" : {
+    "start" : 1641886289545,
+    "stop" : 1641886330647,
+    "duration" : 41102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6dbed59f9d0d25c3",
+  "name" : "User submit request without reference as green team",
+  "time" : {
+    "start" : 1641886292082,
+    "stop" : 1641886336677,
+    "duration" : 44595
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
