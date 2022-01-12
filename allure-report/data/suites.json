@@ -2,37 +2,16 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "TC_REF_GREEN_001 Regression suite",
-    "children" : [ {
-      "name" : "User submit request with reference as green team",
-      "uid" : "f21fba2ffbe54385",
-      "parentUid" : "066cc1aa66be16313fda280ea19269b6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1641886289545,
-        "stop" : 1641886330647,
-        "duration" : 41102
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-97.0.4692.71" ]
-    } ],
-    "uid" : "066cc1aa66be16313fda280ea19269b6"
-  }, {
     "name" : "TC_REF_BLUE_002 Regression suite",
     "children" : [ {
       "name" : "Blue team user provide information about request",
-      "uid" : "e8f6c8417e894f12",
+      "uid" : "c37cb832e4e5645b",
       "parentUid" : "237e445fad6b10d2211e9b25aec0a04c",
       "status" : "passed",
       "time" : {
-        "start" : 1641886290354,
-        "stop" : 1641886337671,
-        "duration" : 47317
+        "start" : 1641983963233,
+        "stop" : 1641984011244,
+        "duration" : 48011
       },
       "flaky" : false,
       "newFailed" : false,
@@ -44,16 +23,16 @@
     } ],
     "uid" : "237e445fad6b10d2211e9b25aec0a04c"
   }, {
-    "name" : "TC_REF_GREEN_002 Regression suite",
+    "name" : "TC_REF_GREEN_001 Regression suite",
     "children" : [ {
-      "name" : "Green team user provide information about request",
-      "uid" : "fea2731c38b835b0",
-      "parentUid" : "39c7b9b0281b6ad4c82a43ffffb9d97a",
+      "name" : "User submit request with reference as green team",
+      "uid" : "92531b1515208032",
+      "parentUid" : "066cc1aa66be16313fda280ea19269b6",
       "status" : "passed",
       "time" : {
-        "start" : 1641886291269,
-        "stop" : 1641886336047,
-        "duration" : 44778
+        "start" : 1641983963766,
+        "stop" : 1641984005599,
+        "duration" : 41833
       },
       "flaky" : false,
       "newFailed" : false,
@@ -63,18 +42,18 @@
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-97.0.4692.71" ]
     } ],
-    "uid" : "39c7b9b0281b6ad4c82a43ffffb9d97a"
+    "uid" : "066cc1aa66be16313fda280ea19269b6"
   }, {
     "name" : "TC_REF_BLUE_001 Regression suite",
     "children" : [ {
       "name" : "User submit request with reference as blue team",
-      "uid" : "c158470c2a44c2d4",
+      "uid" : "739358d1848e4cbf",
       "parentUid" : "8614aa94f32e094c2d500226766d3586",
       "status" : "passed",
       "time" : {
-        "start" : 1641886291317,
-        "stop" : 1641886334718,
-        "duration" : 43401
+        "start" : 1641983964366,
+        "stop" : 1641984008728,
+        "duration" : 44362
       },
       "flaky" : false,
       "newFailed" : false,
@@ -86,16 +65,37 @@
     } ],
     "uid" : "8614aa94f32e094c2d500226766d3586"
   }, {
+    "name" : "TC_REF_GREEN_002 Regression suite",
+    "children" : [ {
+      "name" : "Green team user provide information about request",
+      "uid" : "cbac03d4e06b1c",
+      "parentUid" : "39c7b9b0281b6ad4c82a43ffffb9d97a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641983964718,
+        "stop" : 1641984008144,
+        "duration" : 43426
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    } ],
+    "uid" : "39c7b9b0281b6ad4c82a43ffffb9d97a"
+  }, {
     "name" : "TC_WO_REF_GREEN_001 Regression suite",
     "children" : [ {
       "name" : "User submit request without reference as green team",
-      "uid" : "6dbed59f9d0d25c3",
+      "uid" : "7fedefcab7e806c9",
       "parentUid" : "0bd80c3805881f31ae0c7b1d98bd4811",
       "status" : "passed",
       "time" : {
-        "start" : 1641886292082,
-        "stop" : 1641886336677,
-        "duration" : 44595
+        "start" : 1641983967263,
+        "stop" : 1641984010626,
+        "duration" : 43363
       },
       "flaky" : false,
       "newFailed" : false,

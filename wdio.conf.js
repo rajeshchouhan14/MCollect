@@ -28,8 +28,12 @@ exports.config = {
         // 'path/to/excluded/files'
     ],
     suites:{
+
         Milestone1: ['./features/MemberScreen_Feature/Milestone1/*.feature'],
-        memberScreen: ['./features/MemberScreen_Feature/*.feature'],
+        Milestone2: ['./features/MemberScreen_Feature/Milestone2/*.feature'],
+        Milestone3: ['./features/MemberScreen_Feature/Milestone3/*.feature'],
+        Milestone4: ['./features/MemberScreen_Feature/Milestone4/*.feature'],
+        Milestone5: ['./features/MemberScreen_Feature/Milestone5/*.feature'],        memberScreen: ['./features/MemberScreen_Feature/*.feature'],
         adminScreen: ['./features/Admin_Feature/*.feature'],
         singlecheck: ['./features/MemberScreen_Feature/WO_Ref_Green1.feature']
     },

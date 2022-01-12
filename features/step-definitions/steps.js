@@ -9,7 +9,7 @@ const pages = {
 
 Given(/^I am on the (\w+) page$/, async (page) => {
     await pages[page].open()
-    browser.maximizeWindow()
+    // browser.maximizeWindow()
 
 });
 
@@ -211,7 +211,7 @@ When(/^clicks on continue button$/, async () => {
 
 
 });
-
+		
 When(/^clicks on the continue button$/, async () => {
     await browser.pause(1000)
     await expect(LoginPage.continuesBtn1).toExist()  
@@ -221,22 +221,21 @@ When(/^clicks on the continue button$/, async () => {
 
 });
 
-Then(/^selects the request type$/, async () => {
+Then(/^user tells us about type of request$/, async () => {
     await browser.pause(1000)
-    await expect(LoginPage.requestType1).toExist()  
-    await LoginPage.requestType1.click()
+    await LoginPage.requestType1.click() 
     await LoginPage.SelectrequestType1.click()
+    await browser.pause(1000)
+
 
 });
 
-Then(/^select the request type$/, async () => {
+Then(/^user tell us about type of request$/, async () => {
     await browser.pause(1000)
-    await LoginPage.requestType.scrollIntoView();
-    await expect(LoginPage.requestType).toExist()
     await LoginPage.requestType.click() 
-    // await LoginPage.requestType.selectByIndex(2)
-    await browser.pause(1000)
     await LoginPage.SelectrequestType.click()
+    await browser.pause(1000)
+
 
 });
 Then(/^user tell us about request$/, async () => {
@@ -244,6 +243,9 @@ Then(/^user tell us about request$/, async () => {
     await expect(LoginPage.requestbox).toExist()  
     await LoginPage.requestbox.click()
     await LoginPage.requestbox.setValue('request data inserting')
+    await browser.pause(1000)
+
+
 });
 
 Then(/^user tells us about request$/, async () => {
@@ -254,14 +256,14 @@ Then(/^user tells us about request$/, async () => {
 
 Then(/^user upload the document$/, async () => {
     browser.pause(100000)
-    const path =require('path');  
-    
-    const filePath =path.join(__dirname,'./DemoInternet_bill.pdf') 
+    // const path =require('path');     
+    const inputs = $('//div[text()=" Drop to upload a file or click here "]')   
+    const filePath =path.join(__dirname,'./Demo.pdf') 
     // const remoteFilePath = await browser.uploadFile(filePath)
-     await $('//div[text()=" Drop to upload a file or click here "]').setValue(filePath)
+    // inputs.click();
+    inputs.setValue(filePath)
 
 });
-
 Then(/^user submit the request$/, async () => {
     await browser.pause(1000)
     await expect(LoginPage.submitbtn).toExist()  

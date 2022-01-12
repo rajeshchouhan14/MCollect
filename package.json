@@ -9,6 +9,10 @@
     "admin": "npx wdio wdio.conf.js --suite adminScreen",
     "checker": "npx wdio wdio.conf.js --suite singlecheck",
     "milestone1": "npx wdio wdio.conf.js --suite Milestone1",
+    "milestone2": "npx wdio wdio.conf.js --suite Milestone2",
+    "milestone3": "npx wdio wdio.conf.js --suite Milestone3",
+    "milestone4": "npx wdio wdio.conf.js --suite Milestone4",
+    "milestone5": "npx wdio wdio.conf.js --suite Milestone5",    
 
 
     "test": "npx wdio wdio.conf.js"
