@@ -16,5 +16,10 @@ module.exports = class Page {
     openss(path) {
         return browser.url(`https://main.inboundmailer.emea.stage.ext.mercer.com/dashboard`)
     }
+    
+    opensss(path) {
+        return browser.url(`https://admin.inboundmailer.emea.stage.int.mercer.com/dashboard`)
+    }
+    
 
 }

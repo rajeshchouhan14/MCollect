@@ -1,3 +1,4 @@
+
 exports.config = {
     //
     // ====================
@@ -28,14 +29,14 @@ exports.config = {
         // 'path/to/excluded/files'
     ],
     suites:{
-
         Milestone1: ['./features/MemberScreen_Feature/Milestone1/*.feature'],
         Milestone2: ['./features/MemberScreen_Feature/Milestone2/*.feature'],
         Milestone3: ['./features/MemberScreen_Feature/Milestone3/*.feature'],
-        Milestone4: ['./features/MemberScreen_Feature/Milestone4/*.feature'],
-        Milestone5: ['./features/MemberScreen_Feature/Milestone5/*.feature'],        memberScreen: ['./features/MemberScreen_Feature/*.feature'],
+        Milestone4: ['./features/Admin_Feature/Milestone4/*.feature'],
+        Milestone5: ['./features/Admin_Feature/Milestone5/*.feature'],
+        memberScreen: ['./features/MemberScreen_Feature/*.feature'],
         adminScreen: ['./features/Admin_Feature/*.feature'],
-        singlecheck: ['./features/MemberScreen_Feature/WO_Ref_Green1.feature']
+        singlecheck: ['./features/Admin_Feature/Milestone5/Take_BlueTeamRequest.feature'],
     },
     //
     // ============
@@ -105,6 +106,7 @@ exports.config = {
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
     baseUrl: 'http://localhost',
+    baseUrl1: 'https://mmcglobalind-my.sharepoint.com/personal/rajesh_chouhan_mmc_com/_layouts/15/onedrive.aspx',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -120,8 +122,9 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['chromedriver'],
-    
+     services: ['chromedriver'],
+    // services: ['selenium-standalone-service'],
+
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: https://webdriver.io/docs/frameworks
@@ -142,6 +145,9 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
+
+
+
     reporters: ['spec',
     ['allure',
     {outputDir: 'allure-results',            
@@ -149,6 +155,31 @@ exports.config = {
     disableWebdriverScreenshotsReporting: false,
     useCucumberStepReporter: true,
  }]],
+
+//  reporters: ['spec',
+//     ['allure',
+//     {outputDir: 'allure-results',            
+//     disableWebdriverStepsReporting: false,
+//     disableWebdriverScreenshotsReporting: false,
+//     useCucumberStepReporter: true,
+//  }],
+ 
+//  [
+//     'junit',
+//     {
+//     outputDir: './JReports',
+//     outputFileFormat: function (options)
+//     {
+//     return `results-${ new Date().getTime()}.xml`;
+//     },
+//     },
+// ]
+// ],
+
+
+
+
+ 
 //  reporters: [
 
 //     'spec',
@@ -333,7 +364,10 @@ afterTest: function(
     {error,result,duration,passed,retries}
     ){
         if(error){
-        browser.takeScreenshot();
+            
+        var name = 'ERROR-chrome-' + Date.now()
+        browser.takeScreenshot('./errorShots/' + name + '.png')
+        // browser.takeScreenshot();
     }
     },
 
@@ -371,65 +405,65 @@ afterTest: function(
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {<Object>} results object containing test results
      */
-     onComplete: function (exitCode, config, capabilities, results) {
+    // //  onComplete: function (exitCode, config, capabilities, results) {
 
-        // Generate the report when it all tests are done
+    // //     // Generate the report when it all tests are done
 
-        // eslint-disable-next-line @typescript-eslint/no-unsafe-call
+    // //     // eslint-disable-next-line @typescript-eslint/no-unsafe-call
 
-        generate({
+    // //     generate({
 
-          // Required
+    // //       // Required
 
-          // This part needs to be the same path where you store the JSON files
+    // //       // This part needs to be the same path where you store the JSON files
 
-          // default = '.tmp/json/'
+    // //       // default = '.tmp/json/'
 
-          jsonDir: 'reports/cucumberjs-json/',
+    // //       jsonDir: 'reports/cucumberjs-json/',
 
-          reportPath: 'reports/multiple-cucumber-html-reporter/',
+    // //       reportPath: 'reports/multiple-cucumber-html-reporter/',
 
-          // openReportInBrowser should browseToThisPage the report automatically but it is not consistent so disabling
+    // //       // openReportInBrowser should browseToThisPage the report automatically but it is not consistent so disabling
 
-          openReportInBrowser: 'false',
+    // //       openReportInBrowser: 'false',
 
-          saveCollectedJSON : true,
+    // //       saveCollectedJSON : true,
 
-          pageTitle: 'Mercer Time TA',
+    // //       pageTitle: 'CMA report',
 
-          reportName: 'Mercer Time TA',
+    // //       reportName: 'CMA report',
 
-          // to blank out the standard footer
+    // //       // to blank out the standard footer
 
-          pageFooter: '<div><p>&nbsp;</p></div>',
+    // //       pageFooter: '<div><p>&nbsp;</p></div>',
 
-          displayDuration: 'true',
+    // //       displayDuration: 'true',
 
-          durationInMS: 'true',
+    // //       durationInMS: 'true',
 
-          // for more options see https://github.com/wswebcreation/multiple-cucumber-html-reporter#options
+    // //       // for more options see https://github.com/wswebcreation/multiple-cucumber-html-reporter#options
 
-        });
+    // //     });
 
 
 
-        var reporter = require('cucumber-html-reporter');
+    //     var reporter = require('cucumber-html-reporter');
 
-        var options = {
+    //     var options = {
 
-          theme: 'bootstrap',
+    //       theme: 'bootstrap',
 
-          jsonFile: 'reports/multiple-cucumber-html-reporter/merged-output.json',
+    //       jsonFile: 'reports/multiple-cucumber-html-reporter/merged-output.json',
 
-          output: 'reports/cucumber-report/MercerTimeTestExecutionReport.html',
+    //       output: 'reports/cucumber-report/MercerTimeTestExecutionReport.html',
 
-          reportSuiteAsScenarios: true
+    //       reportSuiteAsScenarios: true
 
-        };
+    //     };
 
-        reporter.generate(options);
+    //     reporter.generate(options);
 
-      },
+    //   },
     /**
     * Gets executed when a refresh happens.
     * @param {String} oldSessionId session ID of the old session

@@ -94,6 +94,55 @@ class LoginPage extends Page {
         
     }
     
+    get requestTitle() {
+        return $('//h1[text()="Request Queue"]');
+        
+    }
+    get requestQueue() {
+        return $('(//div[@class="brighter-control__input-wrapper"])[2]');
+        
+    }
+    
+    get requestQueueresult() {
+        return $('(//span[text()=" Take "])[1]');
+        
+    }
+    
+    get verifyBlueTeamPage() {
+        return $('//span[text()="blue"]');
+        
+    }
+    
+    get verifyGreenTeamPage() {
+        return $('//span[text()="green"]');
+        
+    }
+    
+    get TakeBlueTeam() {
+        return $('(//div[text()="blue"]/../../following-sibling::td[7])[1]');
+        
+    }
+
+    
+    get TakeGreenTeam() {
+        return $('(//div[text()="green"]/../../following-sibling::td[7])[1]');
+        
+    }
+    
+    get verifyAccepted() {
+        return $('(//td[text()=" Accepted "])[1]');
+        
+    }
+    
+    get verifyRejected() {
+        return $('(//td[text()=" Rejected "])[1]');
+        
+    }
+    get verifyPending() {
+        return $('(//td[text()=" Pending "])[1]');
+        
+    }
+    
      get requestType1() {
         return $('//span[text()="Select"]');
         
@@ -128,6 +177,9 @@ class LoginPage extends Page {
     
      get inputaddress() {
         return $('#input-address')
+    }
+    get queuesearch() {
+        return $('(//input)[1]')
     }
     
      get inputPostcode() {
@@ -227,6 +279,12 @@ class LoginPage extends Page {
 
         await this.inputaddress.setValue('address details')
         await this.inputPostcode.setValue('676776')
+    }
+    async login156 () {
+        browser.pause(5000)
+
+        await this.inputReference.setValue('23064307')
+        await this.inputMemberIN.setValue('AA544467')
     }
     
      async login22 () {
@@ -333,6 +391,10 @@ class LoginPage extends Page {
      openss() {
         return super.opens();
     }
+    opensss() {
+        return super.opensss();
+        
+    }
 
 
     get inputPassword() {
@@ -341,6 +403,94 @@ class LoginPage extends Page {
 
     get btnSubmit() {
         return $('button[type="submit"]');
+    }
+    async searchQueue () {
+        browser.pause(5000)
+
+        await this.queuesearch.setValue('Pension')
+    }
+    
+    async searchBlueTeam () {
+        browser.pause(5000)
+
+    }
+    
+    get SelectAllrequestQueue() {
+        return $('//span[text()="All"]');
+        
+    }
+    
+    get SelectpendingrequestQueue() {
+        return $('//span[text()="Pending"]');
+        
+    }
+    
+    get SelectacceptedrequestQueue() {
+        return $('//span[text()="Accepted"]');
+        
+    }
+    
+    get SelectrejectedrequestQueue() {
+        return $('//span[text()="Rejected"]');
+        
+    }
+    
+    get arrangeDate() {
+        return $('//span[text()="Date"]');
+        
+    }
+    
+    get arrangeworkType() {
+        return $('//span[text()="Work Item Type"]');
+        
+    }
+    get arrangeTeam() {
+        return $('//span[text()="Team"]');
+        
+    }
+    get arrangeStatus() {
+        return $('//span[text()="Status"]');
+        
+    }
+    get arrangeRefNum() {
+        return $('//span[text()="Ref. Number"]');
+        
+    }
+    get arrangeRequestType() {
+        return $('//span[text()="Request Type"]');
+        
+    }
+    get arrangeNInumber() {
+        return $('//span[text()="NI Number"]');
+        
+    }
+    get arrangeScheme() {
+        return $('//span[text()="Scheme"]');
+        
+    }
+    
+    get arrangeAssignee() {
+        return $('//span[text()="Assignee"]');
+        
+    }
+    
+    get arrangeEmail() {
+        return $('//span[text()="Email"]');
+        
+    }
+    
+    get arrangeRejection() {
+        return $('//span[text()="Rejection Reason"]');
+        
+    }
+    
+    get arrangeCase() {
+        return $('//span[text()="Case Creation Status"]');
+        
+    }
+    get arrangeDownload() {
+        return $('//span[text()="Downloaded Date"]');
+        
     }
 
     /**

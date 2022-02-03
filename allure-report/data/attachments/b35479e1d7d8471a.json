@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//span[text()=\"Submit request with a reference\"]"
-}
