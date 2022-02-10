@@ -34,9 +34,10 @@ exports.config = {
         Milestone3: ['./features/MemberScreen_Feature/Milestone3/*.feature'],
         Milestone4: ['./features/Admin_Feature/Milestone4/*.feature'],
         Milestone5: ['./features/Admin_Feature/Milestone5/*.feature'],
+        Milestone6: ['./features/Admin_Feature/Milestone6/*.feature'],
         memberScreen: ['./features/MemberScreen_Feature/*.feature'],
         adminScreen: ['./features/Admin_Feature/*.feature'],
-        singlecheck: ['./features/Admin_Feature/Milestone5/Take_BlueTeamRequest.feature'],
+        singlecheck: ['./features/Admin_Feature/Milestone6/Take_blueTeamInscopeRequest.feature'],
     },
     //
     // ============

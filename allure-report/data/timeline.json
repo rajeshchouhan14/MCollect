@@ -1,0 +1,1100 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-4",
+    "children" : [ {
+      "name" : "User raise request without reference & team",
+      "uid" : "b6b86dadc9b15270",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463593650,
+        "stop" : 1644463653120,
+        "duration" : 59470
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Without reference green team user provide information about request",
+      "uid" : "8867b7e15bd4ea20",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463432063,
+        "stop" : 1644463503880,
+        "duration" : 71817
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "User select Rejected request",
+      "uid" : "c7ca8792063772b4",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463760485,
+        "stop" : 1644463831367,
+        "duration" : 70882
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Green Team Request",
+      "uid" : "9c321c50dcaa82cb",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644466562983,
+        "stop" : 1644466631933,
+        "duration" : 68950
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "User submit request without reference as green team",
+      "uid" : "f3714540d34fd1b3",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463133541,
+        "stop" : 1644463187865,
+        "duration" : 54324
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Blue Team Request",
+      "uid" : "13f33896997d95c3",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463980388,
+        "stop" : 1644464027319,
+        "duration" : 46931
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Green Team Request",
+      "uid" : "8f288d7fb1f81843",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644465252227,
+        "stop" : 1644465308063,
+        "duration" : 55836
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Green Team Request",
+      "uid" : "1552130092568385",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644466858605,
+        "stop" : 1644466919692,
+        "duration" : 61087
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Green Team Request",
+      "uid" : "898f8b6b82567f0a",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644464515080,
+        "stop" : 1644464603139,
+        "duration" : 88059
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Green Team Request",
+      "uid" : "2bff0c7106377d2e",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644464220819,
+        "stop" : 1644464286488,
+        "duration" : 65669
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Green Team Request",
+      "uid" : "6e08a9b651996feb",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644466242163,
+        "stop" : 1644466306847,
+        "duration" : 64684
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Green Team Request",
+      "uid" : "43d388744b2ac688",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644467706726,
+        "stop" : 1644467750832,
+        "duration" : 44106
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    } ],
+    "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "User sort All request",
+      "uid" : "8e15deee1786c2c7",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463978360,
+        "stop" : 1644464056491,
+        "duration" : 78131
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Edit Request for team",
+      "uid" : "e489631fc8e43eb4",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644465201982,
+        "stop" : 1644465302442,
+        "duration" : 100460
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Admin - Dashboard Summary",
+      "uid" : "42615dd04d4532a8",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463760947,
+        "stop" : 1644463844710,
+        "duration" : 83763
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "With reference & without team name, user provide information about request",
+      "uid" : "3ad86eb91ab99a36",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463432160,
+        "stop" : 1644463494613,
+        "duration" : 62453
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Edit Request for team",
+      "uid" : "ce1753825efb9f9d",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644466237253,
+        "stop" : 1644466331776,
+        "duration" : 94523
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Create case for Selected Request",
+      "uid" : "b07a6f8420ca70b8",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644466563425,
+        "stop" : 1644466644025,
+        "duration" : 80600
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Edit Request for team",
+      "uid" : "a80c3ee63ed7992c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644464220935,
+        "stop" : 1644464328394,
+        "duration" : 107459
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Edit Request for team",
+      "uid" : "63094409d37b7ca7",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644464515236,
+        "stop" : 1644464618703,
+        "duration" : 103467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Create case for Selected Request",
+      "uid" : "c317a02abb0ef4ef",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644467705880,
+        "stop" : 1644467793614,
+        "duration" : 87734
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Blue In Scope- provide information about request",
+      "uid" : "912f00685d7e9584",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463593916,
+        "stop" : 1644463660601,
+        "duration" : 66685
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Blue team user provide information about request",
+      "uid" : "28f1f250f8a66ae",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463133056,
+        "stop" : 1644463190768,
+        "duration" : 57712
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Create case for Selected Request",
+      "uid" : "3b8421b155f63bd4",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644466858357,
+        "stop" : 1644466920817,
+        "duration" : 62460
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "User sort Rejected request",
+      "uid" : "5f2167b7232caed9",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463980684,
+        "stop" : 1644464053100,
+        "duration" : 72416
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Without reference blue team user provide information about request",
+      "uid" : "f2ad82691ba25f39",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463432331,
+        "stop" : 1644463503917,
+        "duration" : 71586
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Contact TPT Team Request",
+      "uid" : "8057eb3d02cc114b",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644466562828,
+        "stop" : 1644466637382,
+        "duration" : 74554
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Contact TPT Team Request",
+      "uid" : "8c6dae16d1c3fb28",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644466238347,
+        "stop" : 1644466311794,
+        "duration" : 73447
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Contact TPT Team Request",
+      "uid" : "adf1dc126fdeecef",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644465206317,
+        "stop" : 1644465271900,
+        "duration" : 65583
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Contact TPT Team Request",
+      "uid" : "7c418734b310c41d",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644467703887,
+        "stop" : 1644467747725,
+        "duration" : 43838
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "User select Pending request",
+      "uid" : "b03230483851d977",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463760340,
+        "stop" : 1644463825088,
+        "duration" : 64748
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Green team user provide information about request",
+      "uid" : "d06cb0e960097d34",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463133352,
+        "stop" : 1644463187226,
+        "duration" : 53874
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Contact TPT user provide information about request",
+      "uid" : "4b09b2171f083deb",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463594197,
+        "stop" : 1644463664270,
+        "duration" : 70073
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Contact TPT Team Request",
+      "uid" : "faa5e84634f06a8a",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644466857957,
+        "stop" : 1644466918172,
+        "duration" : 60215
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Contact TPT Team Request",
+      "uid" : "57dfd1d0061294b5",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644464515900,
+        "stop" : 1644464626118,
+        "duration" : 110218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Contact TPT Team Request",
+      "uid" : "539a19b3278c3eb6",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644464222962,
+        "stop" : 1644464289240,
+        "duration" : 66278
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    } ],
+    "uid" : "b755a79e149728f67460aea38b0710e0"
+  }, {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Edit Request for team",
+      "uid" : "71d47e0abf10cad8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644466562090,
+        "stop" : 1644466646635,
+        "duration" : 84545
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "User sort Accepted request",
+      "uid" : "5460bb6556a4d613",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463977732,
+        "stop" : 1644464044914,
+        "duration" : 67182
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Edit Request for team",
+      "uid" : "8dd1d1aa3443f73",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644466858207,
+        "stop" : 1644466926108,
+        "duration" : 67901
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Edit Request for team",
+      "uid" : "3c69b28fe16eed85",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644467705912,
+        "stop" : 1644467784858,
+        "duration" : 78946
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "User submit request with reference without team",
+      "uid" : "558ffd04beec6d26",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463433120,
+        "stop" : 1644463493431,
+        "duration" : 60311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Create case for Selected Request",
+      "uid" : "efe23b87248cc53d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644466236007,
+        "stop" : 1644466331297,
+        "duration" : 95290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Blue Team Inscope Request",
+      "uid" : "ef243db8cf540bda",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644465831271,
+        "stop" : 1644465888985,
+        "duration" : 57714
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Blue Team Inscope Request",
+      "uid" : "7b5e0658fd54e4b9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644466095721,
+        "stop" : 1644466139197,
+        "duration" : 43476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "User submit request with reference as blue team",
+      "uid" : "9365787fc4e0577e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463135184,
+        "stop" : 1644463185572,
+        "duration" : 50388
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "User select Accepted request",
+      "uid" : "ed9bc66cd90b7473",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463760308,
+        "stop" : 1644463833543,
+        "duration" : 73235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Create case for Selected Request",
+      "uid" : "abdb67d3f9bca817",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644465230631,
+        "stop" : 1644465340589,
+        "duration" : 109958
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Blue In Scope- Submit request with a reference",
+      "uid" : "bfa2fa1dbb2eac28",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463591974,
+        "stop" : 1644463644084,
+        "duration" : 52110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Create case for Selected Request",
+      "uid" : "64402acabf2b495f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644464513919,
+        "stop" : 1644464574081,
+        "duration" : 60162
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Create case for Selected Request",
+      "uid" : "28487a4acfa704a5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644464220396,
+        "stop" : 1644464367413,
+        "duration" : 147017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "Take Blue Team Inscope Request",
+      "uid" : "f367a0acde1110d1",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644466241694,
+        "stop" : 1644466329101,
+        "duration" : 87407
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "User sort Pending request",
+      "uid" : "962a51ebf18793b3",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463977835,
+        "stop" : 1644464051360,
+        "duration" : 73525
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Blue Team Inscope Request",
+      "uid" : "3f8fb54467e2fa86",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644466857753,
+        "stop" : 1644466914494,
+        "duration" : 56741
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Blue Team Inscope Request",
+      "uid" : "5476e4ed5d7d8a51",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644467705969,
+        "stop" : 1644467751445,
+        "duration" : 45476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Blue Team Inscope Request",
+      "uid" : "6aec4c9341ad5175",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644465202735,
+        "stop" : 1644465279529,
+        "duration" : 76794
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Blue Team Inscope Request",
+      "uid" : "c41ad778f96536d8",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1644464220624,
+        "stop" : 1644464280756,
+        "duration" : 60132
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "User select All request",
+      "uid" : "ae3428c14a945731",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463759515,
+        "stop" : 1644463833368,
+        "duration" : 73853
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "User submit request without reference as blue team",
+      "uid" : "ba441bb7bff5cb53",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463433217,
+        "stop" : 1644463497127,
+        "duration" : 63910
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "User Contact TPT to get in touch with us online.",
+      "uid" : "65bf440d57884aa3",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463593140,
+        "stop" : 1644463652073,
+        "duration" : 58933
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "User submit request with reference as green team",
+      "uid" : "c3c3c2729e4b2efb",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463133453,
+        "stop" : 1644463181168,
+        "duration" : 47715
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Blue Team Inscope Request",
+      "uid" : "792d9cb7c784b313",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644464513906,
+        "stop" : 1644464608890,
+        "duration" : 94984
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    }, {
+      "name" : "Take Blue Team Inscope Request",
+      "uid" : "ad93e348a8f9055d",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644466563980,
+        "stop" : 1644466629710,
+        "duration" : 65730
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  }, {
+    "name" : "0-5",
+    "children" : [ {
+      "name" : "User provide information about request without reference & team",
+      "uid" : "31510a3cac634aaa",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644463665563,
+        "stop" : 1644463718057,
+        "duration" : 52494
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.82" ]
+    } ],
+    "uid" : "6ea253441b78cd38797e932a74777a9c"
+  } ]
+}

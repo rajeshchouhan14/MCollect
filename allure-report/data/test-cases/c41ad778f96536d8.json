@@ -1,0 +1,62 @@
+{
+  "uid" : "c41ad778f96536d8",
+  "name" : "Take Blue Team Inscope Request",
+  "fullName" : "TC_Take_BlueInscope_Request_001 Regression suite.Take Blue Team Inscope Request",
+  "historyId" : "e631b20e1dbcb2216ff77507ecf9dd5d",
+  "time" : {
+    "start" : 1644464220624,
+    "stop" : 1644464280756,
+    "duration" : 60132
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds",
+  "statusTrace" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n                    at Timeout.<anonymous> (C:\\Users\\Rajesh-chouhan\\OneDrive - MMC\\Desktop\\CMAKT\\cmaautomationrepo\\node_modules\\@cucumber\\cucumber\\lib\\time.js:60:20)\n                    at listOnTimeout (node:internal/timers:557:17)\n                    at processTimers (node:internal/timers:500:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "TC_Take_BlueInscope_Request_001 Regression suite"
+  }, {
+    "name" : "testClass",
+    "value" : "TC_Take_BlueInscope_Request_001 Regression suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Take Blue Team Inscope Request"
+  }, {
+    "name" : "package",
+    "value" : "TC_Take_BlueInscope_Request_001 Regression suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c41ad778f96536d8.json",
+  "parameterValues" : [ "chrome-98.0.4758.82" ]
+}

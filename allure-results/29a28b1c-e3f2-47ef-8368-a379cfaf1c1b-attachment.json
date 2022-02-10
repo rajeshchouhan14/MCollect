@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//td[text()=\" contacttpt  \"]/following-sibling::td[7])[1]"
+}

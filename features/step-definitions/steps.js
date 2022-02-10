@@ -330,7 +330,7 @@ Then(/^user submit the request$/, async () => {
     // await browser.refresh()
     // await browser.pause(1000)
     // await expect(LoginPage.submitbtn).toExist()  
-    browser.pause(2000)
+    browser.pause(10000)
     await expect(LoginPage.submitbtn).toExist()  
     await LoginPage.submitbtn.click()
     browser.saveScreenshot('submitbtnerror.png')
@@ -501,18 +501,106 @@ Then(/^click on take button for green team request$/, async () => {
 
 Then(/^click on take button for contactTpt team request$/, async () => {
     await browser.pause(4000)
-    await LoginPage.TakeBlueTeam.click()
+    await LoginPage.arrangeDate.click()
+    await browser.pause(4000)
+    await LoginPage.TakeContactTpt.click()
     // browser.pause(10000)
-    await expect(LoginPage.verifyBlueTeamPage).toBeExisting();
+    await expect(LoginPage.verifyGreenTeamPage).toBeExisting();
 });
 
 Then(/^click on take button for blue team with InScope request$/, async () => {
     await browser.pause(4000)
-    await LoginPage.TakeBlueTeam.click()
-    // browser.pause(10000)
-    await expect(LoginPage.verifyBlueTeamPage).toBeExisting();
+    await LoginPage.arrangeDate.click()
+    await LoginPage.TakeBlueInScope.click()
+    browser.pause(10000)
+    await expect(LoginPage.verifyInScopeTeamPage).toBeExisting();
 });
 
+Then(/^Create case for Selected Request$/, async () => {
+    await browser.pause(4000)
+    await LoginPage.createCaseBtn.click()
+    await browser.pause(4000)
+    await expect(LoginPage.requestQueue).toExist()  
+
+});
+
+
+Then(/^click on take button for green team with InScope request$/, async () => {
+    await browser.pause(4000)
+    await LoginPage.TakeGreenInScope.click()
+    // browser.pause(10000)
+    await expect(LoginPage.verifyInScopeTeamPage).toBeExisting();
+});
+
+Then(/^click on take button for green team InScope request$/, async () => {
+    await browser.pause(6000)
+    await LoginPage.arrangeDate.click()
+    await browser.pause(6000)
+    await LoginPage.TakeBlueInScope.click()
+    // browser.pause(10000)
+    // await expect(LoginPage.verifyOutScopeTeamPage1).toBeExisting();
+});
+
+
+Then(/^verify OneAndDone & case button should be disabled$/, async () => {
+    await browser.pause(4000)
+    // let assert = require('assert');
+    // LoginPage.OneAndDoneBtn.click()
+    let clickablebtn= await LoginPage.OneAndDoneBtn.isClickable();
+    // assert(clickablebtn === 'false')
+    console.log("This one and done button is not active :"+ clickablebtn)
+
+
+    let clickablecasebtn= await LoginPage.createCaseBtn.isClickable();
+    console.log("This create case button is not active :"+ clickablecasebtn)
+    await browser.pause(4000)
+
+    // assert.equals(clickablecasebtn, 'false')
+
+});
+
+Then(/^verify OneAndDone & case button should be enabled$/, async () => {
+    await browser.pause(4000)
+    let clickablebtn= await LoginPage.OneAndDoneBtn.isClickable();
+    console.log(clickablebtn)
+    // assert.equals(clickablebtn, 'true')
+    let clickablecasebtn= await LoginPage.createCaseBtn.isClickable();
+    console.log(clickablecasebtn)
+    // assert.equals(clickablecasebtn, 'true')
+
+});
+
+
+Then(/^click on edit and select request type$/, async () => {
+    await browser.pause(4000)
+    await LoginPage.editRequest.click()  
+    await browser.pause(4000)
+    await LoginPage.RequestEdit.click() 
+    await LoginPage.SelectEditrequestType.click()
+
+
+});
+
+Then(/^select the request type$/, async () => {
+    await browser.pause(8000)
+    await LoginPage.RequestEdit.click() 
+    await LoginPage.SelectEditrequestType.click()
+    await browser.pause(1000)
+
+});
+Then(/^select scheme name$/, async () => {
+    await browser.pause(4000)
+    await LoginPage.SchemeEdit.click() 
+    await LoginPage.SelectEditSchemeType.click()
+    await browser.pause(1000)
+});
+
+Then(/^click on save button$/, async () => {
+    await browser.pause(4000)    
+    await LoginPage.SaveEdit.click() 
+    await browser.pause(1000)
+
+});
 
 Then(/^I should see a flash message saying (.*)$/, async (message) => {
     await expect(SecurePage.flashAlert).toBeExisting();

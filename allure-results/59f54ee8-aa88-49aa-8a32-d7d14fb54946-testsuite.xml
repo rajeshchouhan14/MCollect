@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644464513614' stop='1644464610089'>
+    <name>TC_Take_BlueInscope_Request_001 Regression suite</name>
+    <title>TC_Take_BlueInscope_Request_001 Regression suite</title>
+    <test-cases>
+        <test-case start='1644464513906' status='failed' stop='1644464608890'>
+            <name>Take Blue Team Inscope Request</name>
+            <title>Take Blue Team Inscope Request</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.82'/>
+            </parameters>
+            <steps>
+                <step start='1644464513922' status='passed' stop='1644464551718'>
+                    <name>Given I open admin Dashboard login page</name>
+                    <title>Given I open admin Dashboard login page</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1644464513936' status='passed' stop='1644464551710'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='f7a1902f-c0a9-4294-ae5b-374f3d9836e6-attachment.json' type='application/json' size='78'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1644464551718' status='passed' stop='1644464579724'>
+                    <name>Then click on take button for blue team with InScope request</name>
+                    <title>Then click on take button for blue team with InScope request</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1644464555730' status='passed' stop='1644464574631'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='981c74d5-d32a-44d8-80b9-bb7c25d3387f-attachment.json' type='application/json' size='60'/>
+                                <attachment title='Response' source='028dda5f-8cf9-4097-b5f6-a35fce2e7e59-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1644464574650' status='passed' stop='1644464577238'>
+                            <name>POST /session/:sessionId/element/94967e2c-5cb9-4581-b038-ad86418f8124/click</name>
+                            <title>POST /session/:sessionId/element/94967e2c-5cb9-4581-b038-ad86418f8124/click</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1644464577239' status='passed' stop='1644464577749'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='52cf68bc-c968-4fce-90da-2c7595d32295-attachment.json' type='application/json' size='129'/>
+                                <attachment title='Response' source='109011b5-a876-493f-b40e-fb4f8e902ff8-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1644464577757' status='passed' stop='1644464579722'>
+                            <name>POST /session/:sessionId/element/37836417-a154-49e0-a3c4-6eae6449e8e2/click</name>
+                            <title>POST /session/:sessionId/element/37836417-a154-49e0-a3c4-6eae6449e8e2/click</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Expect $(`//div[text()="Scope: In "]`) to be existing</message>
+                <stack-trace>Error: Expect $(`//div[text()="Scope: In "]`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"
+                    at World.&lt;anonymous> (C:\Users\Rajesh-chouhan\OneDrive - MMC\Desktop\CMAKT\cmaautomationrepo\features\step-definitions\steps.js:525:51)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

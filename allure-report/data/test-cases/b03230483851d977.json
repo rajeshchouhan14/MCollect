@@ -1,0 +1,177 @@
+{
+  "uid" : "b03230483851d977",
+  "name" : "User select Pending request",
+  "fullName" : "TC_Pending_Request_001 Regression suite.User select Pending request",
+  "historyId" : "d4637b28fa298cf14f1e27837f8b481e",
+  "time" : {
+    "start" : 1644463760340,
+    "stop" : 1644463825088,
+    "duration" : 64748
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I open admin Dashboard login page",
+      "time" : {
+        "start" : 1644463760417,
+        "stop" : 1644463804168,
+        "duration" : 43751
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1644463760556,
+          "stop" : 1644463804166,
+          "duration" : 43610
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "aa825e8162382e68",
+          "name" : "Request",
+          "source" : "aa825e8162382e68.json",
+          "type" : "application/json",
+          "size" : 78
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then user select Pending and verify pending list",
+      "time" : {
+        "start" : 1644463804169,
+        "stop" : 1644463825085,
+        "duration" : 20916
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1644463808176,
+          "stop" : 1644463824313,
+          "duration" : 16137
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "aea1f6419e89c955",
+          "name" : "Request",
+          "source" : "aea1f6419e89c955.json",
+          "type" : "application/json",
+          "size" : 68
+        }, {
+          "uid" : "c43ac2fa0b05177f",
+          "name" : "Response",
+          "source" : "c43ac2fa0b05177f.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1644463824328,
+          "stop" : 1644463825071,
+          "duration" : 743
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9cb255082816b8e5",
+          "name" : "Request",
+          "source" : "9cb255082816b8e5.json",
+          "type" : "application/json",
+          "size" : 68
+        }, {
+          "uid" : "a78292a38481f6f0",
+          "name" : "Response",
+          "source" : "a78292a38481f6f0.json",
+          "type" : "application/json",
+          "size" : 93
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "TC_Pending_Request_001 Regression suite"
+  }, {
+    "name" : "testClass",
+    "value" : "TC_Pending_Request_001 Regression suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "User select Pending request"
+  }, {
+    "name" : "package",
+    "value" : "TC_Pending_Request_001 Regression suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b03230483851d977.json",
+  "parameterValues" : [ "chrome-98.0.4758.82" ]
+}

@@ -1,0 +1,110 @@
+{
+  "uid" : "6aec4c9341ad5175",
+  "name" : "Take Blue Team Inscope Request",
+  "fullName" : "TC_Take_BlueInscope_Request_001 Regression suite.Take Blue Team Inscope Request",
+  "historyId" : "e631b20e1dbcb2216ff77507ecf9dd5d",
+  "time" : {
+    "start" : 1644465202735,
+    "stop" : 1644465279529,
+    "duration" : 76794
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Expect $(`//div[text()=\"Scope: In \"]`) to be existing",
+  "statusTrace" : "Error: Expect $(`//div[text()=\"Scope: In \"]`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"\n                    at World.<anonymous> (C:\\Users\\Rajesh-chouhan\\OneDrive - MMC\\Desktop\\CMAKT\\cmaautomationrepo\\features\\step-definitions\\steps.js:516:51)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Expect $(`//div[text()=\"Scope: In \"]`) to be existing",
+    "statusTrace" : "Error: Expect $(`//div[text()=\"Scope: In \"]`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"\n                    at World.<anonymous> (C:\\Users\\Rajesh-chouhan\\OneDrive - MMC\\Desktop\\CMAKT\\cmaautomationrepo\\features\\step-definitions\\steps.js:516:51)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "Given I open admin Dashboard login page",
+      "time" : {
+        "start" : 1644465202742,
+        "stop" : 1644465243696,
+        "duration" : 40954
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1644465202752,
+          "stop" : 1644465243692,
+          "duration" : 40940
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "32f08d0c2888ffbe",
+          "name" : "Request",
+          "source" : "32f08d0c2888ffbe.json",
+          "type" : "application/json",
+          "size" : 78
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "TC_Take_BlueInscope_Request_001 Regression suite"
+  }, {
+    "name" : "testClass",
+    "value" : "TC_Take_BlueInscope_Request_001 Regression suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Take Blue Team Inscope Request"
+  }, {
+    "name" : "package",
+    "value" : "TC_Take_BlueInscope_Request_001 Regression suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6aec4c9341ad5175.json",
+  "parameterValues" : [ "chrome-98.0.4758.82" ]
+}

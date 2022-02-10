@@ -113,6 +113,26 @@ class LoginPage extends Page {
         
     }
     
+    get verifyInScopeTeamPage() {
+        return $('//div[text()="Scope: In "]');
+        
+    }
+    
+    get verifyOutScopeTeamPage1() {
+        return $('//div[text()="Scope: (Out) "]');
+        
+    }
+    
+    get verifyOutScopeTeamPage() {
+        return $('//div[text()="Scope: Out "]');
+        
+    }
+    
+    get verifytptPage() {
+        return $('//span[text()="blue"]');
+        
+    }
+    
     get verifyGreenTeamPage() {
         return $('//span[text()="green"]');
         
@@ -120,6 +140,41 @@ class LoginPage extends Page {
     
     get TakeBlueTeam() {
         return $('(//div[text()="blue"]/../../following-sibling::td[7])[1]');
+        
+    }
+    
+    get TakeContactTpt() {
+        return $('(//td[text()=" contacttpt  "]/following-sibling::td[7])[1]');
+        
+    }
+    
+    get TakeBlueInScope() {
+        return $('(//div[text()="blue"]/../../../td[2]//div[text()="Scope: In"]/../../../td[10]/button)[1]');
+        
+    }
+    
+    get TakeBlueOutScope() {
+        return $('(//div[text()="blue"]/../../../td[2]//div[text()="Scope: Out"]/../../../td[10]/button)[1]');
+        
+    }
+    
+    get TakeBlueOutScope1() {
+        return $('(//div[text()="blue"]/../../../td[2]//div[text()="Scope: (Out)"]/../../../td[10]/button)[1]');
+        
+    }
+    
+    get TakeGreenInScope() {
+        return $('(//div[text()="green"]/../../../td[2]//div[text()="Scope: In"]/../../../td[10]/button)[1]');
+        
+    }
+    
+    get OneAndDoneBtn() {
+        return $('//span[text()=" One and done "]');
+        
+    }
+    
+    get createCaseBtn() {
+        return $('//span[text()=" Create case "]');
         
     }
 
@@ -320,8 +375,8 @@ class LoginPage extends Page {
     }
      async login324 (){
         browser.pause(5000)
-        await this.inputemailName.setValue('EmployerName@gmail.com')
-        await this.inputnumberName.setValue('123456788')
+        await this.inputemailName.setValue('EmployerName@test.com')
+        await this.inputnumberName.setValue('1234567886')
 
     }
     
@@ -353,8 +408,8 @@ class LoginPage extends Page {
 
      async login3 () {
 
-        await this.inputEmail.setValue('abc@gmail.com')
-        await this.inputNumber.setValue('00772727')
+        await this.inputEmail.setValue('abc@test.com')
+        await this.inputNumber.setValue('9888772727')
         browser.pause(5000)
     }
     
@@ -408,6 +463,12 @@ class LoginPage extends Page {
         browser.pause(5000)
 
         await this.queuesearch.setValue('Pension')
+    }
+    
+    async searchTpt () {
+        browser.pause(5000)
+
+        await this.queuesearch.setValue('tpt')
     }
     
     async searchBlueTeam () {
@@ -492,7 +553,36 @@ class LoginPage extends Page {
         return $('//span[text()="Downloaded Date"]');
         
     }
+    
+    get editRequest() {
+        return $('//span[text()=" Edit "]');
+        
+    }
+    
+    get RequestEdit() {
+        return $('(//div[@class="brighter-control__infix"])[2]');
+        
+    }
+    
+    get SchemeEdit() {
+        return $('(//div[@class="brighter-control__infix"])[5]');
+        
+    }
+    
+    get SelectEditrequestType() {
+        return $('(//div[@class="brighter-select__panel"]//span)[1]');
+        
+    }
+    
+    get SelectEditSchemeType() {
+        return $('(//div[@class="brighter-select__panel"]//span)[1]');
+        
+    }
 
+    get SaveEdit() {
+        return $('//span[text()=" Save "]');
+        
+    }
     /**
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//div[text()=\"blue\"]/../../../td[2]//div[text()=\"Scope: In\"]/../../../td[10]/button)[1]"
+}

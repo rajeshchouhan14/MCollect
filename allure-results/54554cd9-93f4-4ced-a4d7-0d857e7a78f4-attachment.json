@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//div[@class=\"brighter-select__panel\"]//span)[1]"
+}

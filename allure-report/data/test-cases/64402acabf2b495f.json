@@ -1,0 +1,62 @@
+{
+  "uid" : "64402acabf2b495f",
+  "name" : "Create case for Selected Request",
+  "fullName" : "TC_Create_Case_Req_001 Regression suite.Create case for Selected Request",
+  "historyId" : "55131f8adc53d69e04e5c47edb81aa12",
+  "time" : {
+    "start" : 1644464513919,
+    "stop" : 1644464574081,
+    "duration" : 60162
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds",
+  "statusTrace" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n                    at Timeout.<anonymous> (C:\\Users\\Rajesh-chouhan\\OneDrive - MMC\\Desktop\\CMAKT\\cmaautomationrepo\\node_modules\\@cucumber\\cucumber\\lib\\time.js:60:20)\n                    at listOnTimeout (node:internal/timers:557:17)\n                    at processTimers (node:internal/timers:500:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "TC_Create_Case_Req_001 Regression suite"
+  }, {
+    "name" : "testClass",
+    "value" : "TC_Create_Case_Req_001 Regression suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Create case for Selected Request"
+  }, {
+    "name" : "package",
+    "value" : "TC_Create_Case_Req_001 Regression suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64402acabf2b495f.json",
+  "parameterValues" : [ "chrome-98.0.4758.82" ]
+}
