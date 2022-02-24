@@ -1,0 +1,110 @@
+{
+  "uid" : "982a76d84890e05e",
+  "name" : "User raise request without reference & team",
+  "fullName" : "TC_WO_REF_DONT_KNOW_001 Regression suite.User raise request without reference & team",
+  "historyId" : "7094c6ef24091d967c1b23395305a702",
+  "time" : {
+    "start" : 1645521406204,
+    "stop" : 1645521436422,
+    "duration" : 30218
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Expect $(`//span[text()=\"Submit request without a reference\"]`) to exist",
+  "statusTrace" : "Error: Expect $(`//span[text()=\"Submit request without a reference\"]`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"\n                    at World.<anonymous> (C:\\Users\\Rajesh-chouhan\\OneDrive - MMC\\Desktop\\CMAKT\\cmaautomationrepo\\features\\step-definitions\\steps.js:87:42)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Expect $(`//span[text()=\"Submit request without a reference\"]`) to exist",
+    "statusTrace" : "Error: Expect $(`//span[text()=\"Submit request without a reference\"]`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"\n                    at World.<anonymous> (C:\\Users\\Rajesh-chouhan\\OneDrive - MMC\\Desktop\\CMAKT\\cmaautomationrepo\\features\\step-definitions\\steps.js:87:42)",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1645521406211,
+        "stop" : 1645521423943,
+        "duration" : 17732
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1645521406216,
+          "stop" : 1645521423941,
+          "duration" : 17725
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "63a5bffc2da62026",
+          "name" : "Request",
+          "source" : "63a5bffc2da62026.json",
+          "type" : "application/json",
+          "size" : 68
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "TC_WO_REF_DONT_KNOW_001 Regression suite"
+  }, {
+    "name" : "testClass",
+    "value" : "TC_WO_REF_DONT_KNOW_001 Regression suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "User raise request without reference & team"
+  }, {
+    "name" : "package",
+    "value" : "TC_WO_REF_DONT_KNOW_001 Regression suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "982a76d84890e05e.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

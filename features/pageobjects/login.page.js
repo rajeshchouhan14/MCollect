@@ -153,6 +153,25 @@ class LoginPage extends Page {
         
     }
     
+    get TakeRecentRequest() {
+        return $('//tbody[@class="ng-star-inserted"]/tr[1]');
+        
+    }
+    
+    get TakeRecentRequest2() {
+        return $('//tbody[@class="ng-star-inserted"]/tr[2]');
+        
+    }
+    get TakeRecentRequest3() {
+        return $('//tbody[@class="ng-star-inserted"]/tr[3]');
+        
+    }
+    
+    get TakeRecentRequest4() {
+        return $('//tbody[@class="ng-star-inserted"]/tr[4]');
+        
+    }
+    
     get TakeBlueOutScope() {
         return $('(//div[text()="blue"]/../../../td[2]//div[text()="Scope: Out"]/../../../td[10]/button)[1]');
         
@@ -168,10 +187,6 @@ class LoginPage extends Page {
         
     }
     
-    get OneAndDoneBtn() {
-        return $('//span[text()=" One and done "]');
-        
-    }
     
     get createCaseBtn() {
         return $('//span[text()=" Create case "]');
@@ -558,6 +573,30 @@ class LoginPage extends Page {
         return $('//span[text()=" Edit "]');
         
     }
+    get ReassignRequest() {
+        return $('//span[text()=" Reassign "]');
+        
+    }
+    
+    get ClickDropRequest() {
+        return $('//div[@class="brighter-select__value"]/span');
+        
+    }
+    
+    get SelectBlueTeam() {
+        return $('(//span[@class="brighter-option__text"])[2]');
+        
+    }
+    
+    get SelectGreenTeam() {
+        return $('(//span[@class="brighter-option__text"])[1]');
+        
+    }
+    
+    get CloseTeam() {
+        return $('//div[@class="mos-c-modal__close-wrapper--circle ng-tns-c50-6 ng-star-inserted"]');
+        
+    }
     
     get RequestEdit() {
         return $('(//div[@class="brighter-control__infix"])[2]');
@@ -581,6 +620,246 @@ class LoginPage extends Page {
 
     get SaveEdit() {
         return $('//span[text()=" Save "]');
+        
+    }
+    
+    get OneAndDoneBtn() {
+        return $('//span[text()=" One and done "]');
+        
+    }
+    
+    get TemplateBtn() {
+        return $('//div[@class="brighter-select__value"]');
+        
+    }
+    
+    get SelectTemplate() {
+        return $('(//div[@class="brighter-select__panel"]//span)[2]');
+        
+    }
+    
+    get EmailTemplateSubject() {
+        return $('//div[@class="brighter-control__infix"]//input');
+        
+    }
+    
+    get EmailContent() {
+        return $('//div[@class="brighter-control__infix"]//textarea');
+        
+    }
+    
+    get SendEmail() {
+        return $('//span[text()="Send email"]');
+        
+    }
+    
+    get SendEmailCreateCase() {
+        return $('//span[text()="Send email & create case"]');
+        
+    }
+    
+    get DownloadSendEmail() {
+        return $('//span[text()=" Download "]');
+        
+    }
+    get EmailBtn() {
+        return $('//span[text()=" Email "]');
+        
+    }
+    
+    get memberBtn() {
+        return $('(//div[@class="brighter-select__value"])[1]');
+        
+    }
+    
+    get SelectmemberBtn() {
+        return $('(//div[@class="brighter-option__select-box"]/..)[2]');
+        
+    }
+    
+    get adressBtn() {
+        return $('(//div[@class="brighter-select__value"])[2]');
+        
+    }
+    
+    get DobBtn() {
+        return $('(//div[@class="brighter-select__value"])[3]');
+    }
+    
+    get NIBtn() {
+        return $('(//div[@class="brighter-select__value"])[4]');
+    }
+    
+    get DesignationBtn() {
+        return $('(//div[@class="brighter-select__value"])[5]');
+    }
+    
+    get PhoneNoBtn() {
+        return $('//div[@class="brighter-control__infix"]/textarea');
+    }
+    
+    get SaveBtn() {
+        return $('//span[text()="Save record"]');
+    }
+    
+    get SaveBtnCreateCase() {
+        return $('//span[text()="Send record & create case"]');
+    }
+    
+    get thirdbox() {
+        return $('(//input[@class="brighter-radio-button__native-control"])[2]');
+    }
+    
+    get thirdPartyName() {
+        return $('(//input)[3]');
+    }
+    
+    get authorityName() {
+        return $('(//input)[5]');
+    }
+    
+    
+    get memberName() {
+        return $('(//input)[4]');
+    }
+    
+    get recordName() {
+        return $('(//textarea)[1]');
+    }
+    
+    get PhoneBtn() {
+        return $('(//div[@class="small-6"])[2]');
+        
+    }
+    
+    get RejectBtn() {
+        return $('//span[text()=" Reject "]');
+        
+    }
+    
+    get ClickReasonBtn() {
+        return $('//div[@class="brighter-select__value"]');
+        
+    }
+    get SelectReasonBtn() {
+        return $('(//span[@class="brighter-option__text"])[3]');
+        
+    }
+    get SendEmailBtn() {
+        return $('//div[@class="brighter-button__wrapper"]/span[text()=" Send email "]');
+        
+    }
+    
+    get AdminBtn() {
+        return $('//li[@class="column shrink"]');
+        
+    }
+    
+    get ClientsTab() {
+        return $('//h6[text()="Clients"]');
+        
+    }
+    
+    get AddClientsBtn() {
+        return $('//span[text()="Add Client"]');
+        
+    }
+    
+    get EnterClientsName() {
+        return $('//div[@class="brighter-control__infix"]/input');
+        
+    }
+    
+    get AddClientsName() {
+        return $('//span[text()="Add"]');
+        
+    }
+    
+    get ClientsSettingTab() {
+        return $('//h6[text()="Client Settings"]');
+        
+    }
+    
+    get ClickSelectFont() {
+        return $('//div[@class="brighter-select__value"]');
+        
+    }
+    get SelectFontName() {
+        return $('//span[text()="Roboto"]');
+        
+    }
+    get AddFont() {
+        return $('//button[@class="brighter-button"]');
+        
+    }
+    
+    get DeleteFont() {
+        return $('(//div[@class="brighter-button__wrapper"])[3]');
+        
+    }
+    
+    get EnterGroupName() {
+        return $('(//div[@class="brighter-control__infix"])[1]/input');
+        
+    }
+    
+    get Clickworkflow() {
+        return $('(//div[@class="brighter-control__infix"])[2]');
+        
+    }
+    get Selectworkflow() {
+        return $('//span[text()="blue"]');
+        
+    }
+    get SelectPermission() {
+        return $('(//div[@class="brighter-checkbox__wrapper"])[1]');
+        
+    }
+    get ClickAddGroupBtn() {
+        return $('//span[text()="Add Group"]');
+        
+    }
+    
+    get ClickAddBtn() {
+        return $('//span[text()="Add"]');
+        
+    }
+    get GroupsTab() {
+        return $('//h6[text()="Groups"]');
+        
+    }
+    get ReportingTab() {
+        return $('//h6[text()="Reporting"]');
+        
+    }
+
+    get SelectStartDate() {
+        return $('(//input[@placeholder="DD/MM/YYYY"])[1]');
+        
+    }
+    get SelectEndDate() {
+        return $('(//input[@placeholder="DD/MM/YYYY"])[2]');
+        
+    }
+    get SelectClient() {
+        return $('(//div[@class="brighter-select__panel"]//span)[1]');
+        
+    }
+    get ClickClient() {
+        return $('//div[@class="brighter-select__value"]');
+        
+    }
+    
+    get Downloadcsv() {
+        return $('//span[text()="Download CSV"]');
+        
+    }
+    get MemberImportTab() {
+        return $('//h6[text()="Member Import"]');
+        
+    }
+    get SchemeImportTab() {
+        return $('//h6[text()="Scheme Import"]');
         
     }
     /**

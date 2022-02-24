@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@class=\"column shrink\"]\"}\n  (Session info: chrome=98.0.4758.102)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00B4FDC3+2555331]\n\tOrdinal0 [0x00AE77F1+2127857]\n\tOrdinal0 [0x009E2E08+1060360]\n\tOrdinal0 [0x00A0E49E+1238174]\n\tOrdinal0 [0x00A0E69B+1238683]\n\tOrdinal0 [0x00A39252+1413714]\n\tOrdinal0 [0x00A27B54+1342292]\n\tOrdinal0 [0x00A375FA+1406458]\n\tOrdinal0 [0x00A27976+1341814]\n\tOrdinal0 [0x00A036B6+1193654]\n\tOrdinal0 [0x00A04546+1197382]\n\tGetHandleVerifier [0x00CE9622+1619522]\n\tGetHandleVerifier [0x00D9882C+2336844]\n\tGetHandleVerifier [0x00BE23E1+541697]\n\tGetHandleVerifier [0x00BE1443+537699]\n\tOrdinal0 [0x00AED18E+2150798]\n\tOrdinal0 [0x00AF1518+2168088]\n\tOrdinal0 [0x00AF1660+2168416]\n\tOrdinal0 [0x00AFB330+2208560]\n\tBaseThreadInitThunk [0x753CFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77067A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77067A6E+238]\n"
+}

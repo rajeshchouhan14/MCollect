@@ -13,10 +13,12 @@
     "milestone3": "npx wdio wdio.conf.js --suite Milestone3",
     "milestone4": "npx wdio wdio.conf.js --suite Milestone4",
     "milestone5": "npx wdio wdio.conf.js --suite Milestone5", 
-    "milestone6": "npx wdio wdio.conf.js --suite Milestone6",    
-   
+    "milestone6": "npx wdio wdio.conf.js --suite Milestone6", 
+    "milestone7": "npx wdio wdio.conf.js --suite Milestone7", 
+    "milestone8": "npx wdio wdio.conf.js --suite Milestone8",
+    "milestone9": "npx wdio wdio.conf.js --suite Milestone9",    
 
-
+    
     "test": "npx wdio wdio.conf.js"
   },
   "author": "",

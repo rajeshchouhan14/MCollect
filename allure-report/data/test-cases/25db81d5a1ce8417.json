@@ -1,0 +1,110 @@
+{
+  "uid" : "25db81d5a1ce8417",
+  "name" : "Navigate to Admin Settings",
+  "fullName" : "T_Admin_Settings_001 Regression suite.Navigate to Admin Settings",
+  "historyId" : "96b6e002c4a3b36d3dc300b7ac24217d",
+  "time" : {
+    "start" : 1645534342440,
+    "stop" : 1645534371179,
+    "duration" : 28739
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable",
+  "statusTrace" : "element not interactable\n                  (Session info: chrome=98.0.4758.102)\n                Backtrace:\n                \tOrdinal0 [0x0038FDC3+2555331]\n                \tOrdinal0 [0x003277F1+2127857]\n                \tOrdinal0 [0x00222CD0+1060048]\n                \tOrdinal0 [0x0024F3AE+1242030]\n                \tOrdinal0 [0x00244FB3+1200051]\n                \tOrdinal0 [0x00267B0C+1342220]\n                \tOrdinal0 [0x00244984+1198468]\n                \tOrdinal0 [0x00267C14+1342484]\n                \tOrdinal0 [0x002775FA+1406458]\n                \tOrdinal0 [0x00267976+1341814]\n                \tOrdinal0 [0x002436B6+1193654]\n                \tOrdinal0 [0x00244546+1197382]\n                \tGetHandleVerifier [0x00529622+1619522]\n                \tGetHandleVerifier [0x005D882C+2336844]\n                \tGetHandleVerifier [0x004223E1+541697]\n                \tGetHandleVerifier [0x00421443+537699]\n                \tOrdinal0 [0x0032D18E+2150798]\n                \tOrdinal0 [0x00331518+2168088]\n                \tOrdinal0 [0x00331660+2168416]\n                \tOrdinal0 [0x0033B330+2208560]\n                \tBaseThreadInitThunk [0x7646FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x775E7A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x775E7A6E+238]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not interactable",
+    "statusTrace" : "element not interactable\n                  (Session info: chrome=98.0.4758.102)\n                Backtrace:\n                \tOrdinal0 [0x0038FDC3+2555331]\n                \tOrdinal0 [0x003277F1+2127857]\n                \tOrdinal0 [0x00222CD0+1060048]\n                \tOrdinal0 [0x0024F3AE+1242030]\n                \tOrdinal0 [0x00244FB3+1200051]\n                \tOrdinal0 [0x00267B0C+1342220]\n                \tOrdinal0 [0x00244984+1198468]\n                \tOrdinal0 [0x00267C14+1342484]\n                \tOrdinal0 [0x002775FA+1406458]\n                \tOrdinal0 [0x00267976+1341814]\n                \tOrdinal0 [0x002436B6+1193654]\n                \tOrdinal0 [0x00244546+1197382]\n                \tGetHandleVerifier [0x00529622+1619522]\n                \tGetHandleVerifier [0x005D882C+2336844]\n                \tGetHandleVerifier [0x004223E1+541697]\n                \tGetHandleVerifier [0x00421443+537699]\n                \tOrdinal0 [0x0032D18E+2150798]\n                \tOrdinal0 [0x00331518+2168088]\n                \tOrdinal0 [0x00331660+2168416]\n                \tOrdinal0 [0x0033B330+2208560]\n                \tBaseThreadInitThunk [0x7646FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x775E7A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x775E7A6E+238]\n                ",
+    "steps" : [ {
+      "name" : "Given I open admin Dashboard login page",
+      "time" : {
+        "start" : 1645534342444,
+        "stop" : 1645534360246,
+        "duration" : 17802
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1645534342448,
+          "stop" : 1645534360244,
+          "duration" : 17796
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2ebbbf8cd6e4716c",
+          "name" : "Request",
+          "source" : "2ebbbf8cd6e4716c.json",
+          "type" : "application/json",
+          "size" : 78
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "T_Admin_Settings_001 Regression suite"
+  }, {
+    "name" : "testClass",
+    "value" : "T_Admin_Settings_001 Regression suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navigate to Admin Settings"
+  }, {
+    "name" : "package",
+    "value" : "T_Admin_Settings_001 Regression suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25db81d5a1ce8417.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

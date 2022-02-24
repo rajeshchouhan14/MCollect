@@ -1,0 +1,332 @@
+{
+  "uid" : "5f4092893d064df1",
+  "name" : "Add Client",
+  "fullName" : "TC_Client_Add_001 Regression suite.Add Client",
+  "historyId" : "fc8ab9233bf8ad0a292fc12134b130b6",
+  "time" : {
+    "start" : 1645681402460,
+    "stop" : 1645681466970,
+    "duration" : 64510
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable",
+  "statusTrace" : "element not interactable\n                  (Session info: chrome=98.0.4758.102)\n                Backtrace:\n                \tOrdinal0 [0x00B4FDC3+2555331]\n                \tOrdinal0 [0x00AE77F1+2127857]\n                \tOrdinal0 [0x009E2CD0+1060048]\n                \tOrdinal0 [0x00A099F3+1219059]\n                \tOrdinal0 [0x00A0913F+1216831]\n                \tOrdinal0 [0x00A27B0C+1342220]\n                \tOrdinal0 [0x00A04984+1198468]\n                \tOrdinal0 [0x00A27C14+1342484]\n                \tOrdinal0 [0x00A375FA+1406458]\n                \tOrdinal0 [0x00A27976+1341814]\n                \tOrdinal0 [0x00A036B6+1193654]\n                \tOrdinal0 [0x00A04546+1197382]\n                \tGetHandleVerifier [0x00CE9622+1619522]\n                \tGetHandleVerifier [0x00D9882C+2336844]\n                \tGetHandleVerifier [0x00BE23E1+541697]\n                \tGetHandleVerifier [0x00BE1443+537699]\n                \tOrdinal0 [0x00AED18E+2150798]\n                \tOrdinal0 [0x00AF1518+2168088]\n                \tOrdinal0 [0x00AF1660+2168416]\n                \tOrdinal0 [0x00AFB330+2208560]\n                \tBaseThreadInitThunk [0x753CFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77067A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77067A6E+238]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not interactable",
+    "statusTrace" : "element not interactable\n                  (Session info: chrome=98.0.4758.102)\n                Backtrace:\n                \tOrdinal0 [0x00B4FDC3+2555331]\n                \tOrdinal0 [0x00AE77F1+2127857]\n                \tOrdinal0 [0x009E2CD0+1060048]\n                \tOrdinal0 [0x00A099F3+1219059]\n                \tOrdinal0 [0x00A0913F+1216831]\n                \tOrdinal0 [0x00A27B0C+1342220]\n                \tOrdinal0 [0x00A04984+1198468]\n                \tOrdinal0 [0x00A27C14+1342484]\n                \tOrdinal0 [0x00A375FA+1406458]\n                \tOrdinal0 [0x00A27976+1341814]\n                \tOrdinal0 [0x00A036B6+1193654]\n                \tOrdinal0 [0x00A04546+1197382]\n                \tGetHandleVerifier [0x00CE9622+1619522]\n                \tGetHandleVerifier [0x00D9882C+2336844]\n                \tGetHandleVerifier [0x00BE23E1+541697]\n                \tGetHandleVerifier [0x00BE1443+537699]\n                \tOrdinal0 [0x00AED18E+2150798]\n                \tOrdinal0 [0x00AF1518+2168088]\n                \tOrdinal0 [0x00AF1660+2168416]\n                \tOrdinal0 [0x00AFB330+2208560]\n                \tBaseThreadInitThunk [0x753CFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77067A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77067A6E+238]\n                ",
+    "steps" : [ {
+      "name" : "Given I open admin Dashboard login page",
+      "time" : {
+        "start" : 1645681402472,
+        "stop" : 1645681429285,
+        "duration" : 26813
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1645681402486,
+          "stop" : 1645681429280,
+          "duration" : 26794
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8a57141740638b5f",
+          "name" : "Request",
+          "source" : "8a57141740638b5f.json",
+          "type" : "application/json",
+          "size" : 78
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Then Click on Settings tool Icon",
+      "time" : {
+        "start" : 1645681429286,
+        "stop" : 1645681451143,
+        "duration" : 21857
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1645681433304,
+          "stop" : 1645681445950,
+          "duration" : 12646
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e51c33e4f2d7153b",
+          "name" : "Request",
+          "source" : "e51c33e4f2d7153b.json",
+          "type" : "application/json",
+          "size" : 67
+        }, {
+          "uid" : "d7ba3bcdfa3fa9c1",
+          "name" : "Response",
+          "source" : "d7ba3bcdfa3fa9c1.json",
+          "type" : "application/json",
+          "size" : 1042
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      }, {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1645681445979,
+          "stop" : 1645681446052,
+          "duration" : 73
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c97ed58ac9aecd80",
+          "name" : "Request",
+          "source" : "c97ed58ac9aecd80.json",
+          "type" : "application/json",
+          "size" : 67
+        }, {
+          "uid" : "824f715f890cc56c",
+          "name" : "Response",
+          "source" : "824f715f890cc56c.json",
+          "type" : "application/json",
+          "size" : 2
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      }, {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1645681446481,
+          "stop" : 1645681446524,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "23b185e5b1f0ed9",
+          "name" : "Request",
+          "source" : "23b185e5b1f0ed9.json",
+          "type" : "application/json",
+          "size" : 67
+        }, {
+          "uid" : "a813f48269a5485a",
+          "name" : "Response",
+          "source" : "a813f48269a5485a.json",
+          "type" : "application/json",
+          "size" : 2
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      }, {
+        "name" : "POST /session/:sessionId/elements",
+        "time" : {
+          "start" : 1645681446976,
+          "stop" : 1645681447010,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "714f79af33ddc886",
+          "name" : "Request",
+          "source" : "714f79af33ddc886.json",
+          "type" : "application/json",
+          "size" : 67
+        }, {
+          "uid" : "558359f8f6b987a2",
+          "name" : "Response",
+          "source" : "558359f8f6b987a2.json",
+          "type" : "application/json",
+          "size" : 93
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1645681447017,
+          "stop" : 1645681447052,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d3c6270423d6b26c",
+          "name" : "Request",
+          "source" : "d3c6270423d6b26c.json",
+          "type" : "application/json",
+          "size" : 67
+        }, {
+          "uid" : "ce2df6dcceea7835",
+          "name" : "Response",
+          "source" : "ce2df6dcceea7835.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      }, {
+        "name" : "POST /session/:sessionId/element/0857cdb3-9f18-4502-abde-7dba394d565c/click",
+        "time" : {
+          "start" : 1645681447060,
+          "stop" : 1645681447134,
+          "duration" : 74
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 10
+    }, {
+      "name" : "Then Click on client tile",
+      "time" : {
+        "start" : 1645681451144,
+        "stop" : 1645681455373,
+        "duration" : 4229
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1645681455160,
+          "stop" : 1645681455204,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e24bf05c5fe9e28c",
+          "name" : "Request",
+          "source" : "e24bf05c5fe9e28c.json",
+          "type" : "application/json",
+          "size" : 61
+        }, {
+          "uid" : "699d2114814084f0",
+          "name" : "Response",
+          "source" : "699d2114814084f0.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      }, {
+        "name" : "POST /session/:sessionId/element/4ced0ca3-9535-4d8d-8127-5c3b0fcf400f/click",
+        "time" : {
+          "start" : 1645681455219,
+          "stop" : 1645681455371,
+          "duration" : 152
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 13
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "TC_Client_Add_001 Regression suite"
+  }, {
+    "name" : "testClass",
+    "value" : "TC_Client_Add_001 Regression suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add Client"
+  }, {
+    "name" : "package",
+    "value" : "TC_Client_Add_001 Regression suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f4092893d064df1.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

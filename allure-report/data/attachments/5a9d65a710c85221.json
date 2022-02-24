@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class=\"brighter-button__wrapper\"]/span[text()=\" Send email \"]"
+}

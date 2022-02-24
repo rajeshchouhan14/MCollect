@@ -541,6 +541,42 @@ Then(/^click on take button for green team InScope request$/, async () => {
     // await expect(LoginPage.verifyOutScopeTeamPage1).toBeExisting();
 });
 
+Then(/^click on take button for recent request$/, async () => {
+    await browser.pause(6000)
+    await LoginPage.arrangeDate.click()
+    await browser.pause(6000)
+    await LoginPage.TakeRecentRequest.click()
+    // browser.pause(10000)
+    // await expect(LoginPage.verifyOutScopeTeamPage1).toBeExisting();
+});
+
+Then(/^click on take button for recent request2$/, async () => {
+    await browser.pause(6000)
+    await LoginPage.arrangeDate.click()
+    await browser.pause(6000)
+    await LoginPage.TakeRecentRequest2.click()
+    // browser.pause(10000)
+    // await expect(LoginPage.verifyOutScopeTeamPage1).toBeExisting();
+});
+
+Then(/^click on take button for recent request3$/, async () => {
+    await browser.pause(6000)
+    await LoginPage.arrangeDate.click()
+    await browser.pause(6000)
+    await LoginPage.TakeRecentRequest3.click()
+    // browser.pause(10000)
+    // await expect(LoginPage.verifyOutScopeTeamPage1).toBeExisting();
+});
+
+
+Then(/^click on take button for recent request4$/, async () => {
+    await browser.pause(6000)
+    await LoginPage.arrangeDate.click()
+    await browser.pause(6000)
+    await LoginPage.TakeRecentRequest4.click()
+    // browser.pause(10000)
+    // await expect(LoginPage.verifyOutScopeTeamPage1).toBeExisting();
+});
 
 Then(/^verify OneAndDone & case button should be disabled$/, async () => {
     await browser.pause(4000)
@@ -571,11 +607,20 @@ Then(/^verify OneAndDone & case button should be enabled$/, async () => {
 });
 
 
+Then(/^click on reassign and select green team$/, async () => {
+    await browser.pause(4000)
+    await LoginPage.ReassignRequest.click()  
+    await browser.pause(10000)
+    await LoginPage.ClickDropRequest.click()   
+    await LoginPage.SelectGreenTeam.click()
+});
+
 Then(/^click on edit and select request type$/, async () => {
     await browser.pause(4000)
     await LoginPage.editRequest.click()  
-    await browser.pause(4000)
-    await LoginPage.RequestEdit.click() 
+    await browser.pause(5000)
+    await LoginPage.RequestEdit.click()
+    await browser.pause(4000) 
     await LoginPage.SelectEditrequestType.click()
 
 
@@ -584,6 +629,7 @@ Then(/^click on edit and select request type$/, async () => {
 Then(/^select the request type$/, async () => {
     await browser.pause(8000)
     await LoginPage.RequestEdit.click() 
+    await browser.pause(4000)
     await LoginPage.SelectEditrequestType.click()
     await browser.pause(1000)
 
@@ -591,6 +637,7 @@ Then(/^select the request type$/, async () => {
 Then(/^select scheme name$/, async () => {
     await browser.pause(4000)
     await LoginPage.SchemeEdit.click() 
+    await browser.pause(4000)
     await LoginPage.SelectEditSchemeType.click()
     await browser.pause(1000)
 });
@@ -602,8 +649,339 @@ Then(/^click on save button$/, async () => {
 
 });
 
+Then(/^click on one and done request$/, async () => {
+    await browser.pause(4000)    
+    await LoginPage.OneAndDoneBtn.click() 
+
+});
+
+Then(/^click on email$/, async () => {
+    await browser.pause(4000)    
+    await LoginPage.EmailBtn.click() 
+
+});
+
+Then(/^click on phone$/, async () => {
+    await browser.pause(4000)    
+    await LoginPage.PhoneBtn.click()
+    // browser.positionClick()
+    // await browser.pause(4000)    
+
+
+});
+Then(/^select the template$/, async () => {
+    await browser.pause(4000)     
+    await LoginPage.TemplateBtn.click() 
+    await LoginPage.SelectTemplate.click()  
+
+});
+Then(/^enter email template subject$/, async () => {
+    await browser.pause(4000)     
+    await LoginPage.EmailTemplateSubject.click()
+    // await LoginPage.EmailTemplateSubject.setValue('Contact TPT - Action Required')  
+
+});
+Then(/^enter email content$/, async () => {
+    await browser.pause(4000)    
+    await LoginPage.EmailContent.click() 
+    await LoginPage.EmailContent.setValue('Test')  
+
+
+});
+Then(/^click on send email$/, async () => {
+    await browser.pause(4000)    
+    await LoginPage.SendEmail.click() 
+    await browser.pause(4000)    
+
+
+});
+
+Then(/^click on send email and create case$/, async () => {
+    await browser.pause(4000)    
+    await LoginPage.SendEmailCreateCase.click() 
+    await browser.pause(4000)    
+
+
+});
+
+Then(/^click on download$/, async () => {
+    await browser.pause(4000)    
+    await LoginPage.DownloadSendEmail.click() 
+    await browser.pause(10000)    
+
+});
+
+Then(/^Select member name$/, async () => {
+    await browser.pause(4000)    
+    await LoginPage.memberBtn.click() 
+    await LoginPage.SelectmemberBtn.click() 
+    await browser.pause(4000)    
+
+
+});
+
+Then(/^Select Home address$/, async () => {
+    await LoginPage.adressBtn.click() 
+    await browser.pause(2000)    
+    await LoginPage.SelectmemberBtn.click() 
+    await browser.pause(4000)    
+
+
+});
+
+Then(/^Select Date of Birth$/, async () => {
+    await browser.pause(4000)    
+    await LoginPage.DobBtn.click() 
+    await browser.pause(4000)    
+    await LoginPage.SelectmemberBtn.click() 
+    await browser.pause(4000)    
+
+
+});
+
+Then(/^Select NI Number$/, async () => {
+    await browser.pause(4000)    
+    await LoginPage.NIBtn.click() 
+    await browser.pause(4000)    
+    await LoginPage.SelectmemberBtn.click() 
+    await browser.pause(4000)    
+
+
+});
+
+Then(/^Select Designation$/, async () => {
+    await browser.pause(4000)    
+    await LoginPage.DesignationBtn.click() 
+    await browser.pause(4000)    
+    await LoginPage.SelectmemberBtn.click() 
+    await browser.pause(4000)    
+
+
+});
+
+Then(/^Enter the Phone record$/, async () => {
+    await browser.pause(4000)    
+    await LoginPage.PhoneNoBtn.click()
+    await LoginPage.PhoneNoBtn.setValue('9098010213')
+    await browser.pause(4000)    
+
+
+});
+
+Then(/^Click on Save Record$/, async () => {
+    await browser.pause(4000)    
+    await LoginPage.SaveBtn.click()
+});
+
+Then(/^Click on Save Record and Create Case$/, async () => {
+    await browser.pause(4000)    
+    await LoginPage.SaveBtnCreateCase.click()
+});
+
+Then(/^Select third party on Member represenatation$/, async () => {
+    await browser.pause(4000) 
+    await LoginPage.thirdbox.click()
+});
+
+Then(/^Enter the third Party name$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.thirdPartyName.addValue('partyname')
+});
+
+Then(/^Enter authority name$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.authorityName.addValue('authorityName')
+});
+
+Then(/^Enter member name$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.memberName.addValue('memberName')
+});
+Then(/^Enter Record of conversation$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.recordName.addValue('recordName')
+});
+
+Then(/^User on email reference number page$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.EmailBtn.click();
+});
+
+Then(/^User on phone reference number page$/, async () => {
+    await browser.pause(4000)  
+    if(expect(LoginPage.EmailBtn).toBeDisplayed()){
+        await browser.pause(4000)          
+        await LoginPage.PhoneBtn.click();
+    }
+    else{
+    // await LoginPage.arrangeDate.click()
+    // await browser.pause(6000)
+    // await LoginPage.TakeRecentRequest.click()
+    await browser.pause(6000)
+    await LoginPage.editRequest.click()  
+    await browser.pause(4000)
+    await LoginPage.RequestEdit.click()
+    await browser.pause(4000) 
+    await LoginPage.SelectEditrequestType.click()
+    await browser.pause(4000)
+    await LoginPage.SchemeEdit.click() 
+    await browser.pause(4000)
+    await LoginPage.SelectEditSchemeType.click()
+    await browser.pause(4000)    
+    await LoginPage.SaveEdit.click() 
+    await browser.pause(4000)  
+
+    await LoginPage.OneAndDoneBtn.click() 
+    await browser.pause(4000) 
+    await LoginPage.PhoneBtn.click()
+    await browser.pause(4000) 
+    }
+});
+
+Then(/^click on Reject$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.RejectBtn.click();
+});
+
+Then(/^select the reason and send mail$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.ClickReasonBtn.click();
+    await browser.pause(4000) 
+    await LoginPage.SelectReasonBtn.click();
+    await browser.pause(4000)  
+    await LoginPage.SendEmailBtn.click();
+  
+});
+
+Then(/^Click on Settings tool Icon$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.AdminBtn.click();
+    await browser.pause(4000)  
+
+});
+
+Then(/^Click on client tile$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.ClientsTab.click();
+
+
+});
+
+Then(/^Click on Add client$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.AddClientsBtn.click();   
+});
+
+Then(/^Enter client name$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.EnterClientsName.click()
+    await browser.pause(4000)  
+    await LoginPage.EnterClientsName.setValue('ATestClient');
+});
+
+Then(/^Add the client$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.AddClientsName.click();
+});
+
+Then(/^Click on client settings tile$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.ClientsSettingTab.click();
+});
+Then(/^Select the font$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.ClickSelectFont.click();
+    await LoginPage.SelectFontName.click();
+
+});
+Then(/^Add the font$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.AddFont.click();
+});
+
+Then(/^Delete the font$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.DeleteFont.click();
+});
+
+Then(/^Click on groups tile$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.GroupsTab.click();
+});
+
+Then(/^Click on Add group$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.ClickAddGroupBtn.click();
+});
+Then(/^Enter group name$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.EnterGroupName.setValue('ATestGroup')
+});
+Then(/^Select allowed workflow$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.Clickworkflow.click();
+    await LoginPage.Selectworkflow.click();
+
+});
+
+Then(/^Select permission for this group$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.SelectPermission.click();
+});
+Then(/^Add the group$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.ClickAddBtn.click();
+});
+
+Then(/^Click on reporting tile$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.ReportingTab.click();
+});
+
+Then(/^Select start date$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.SelectStartDate.setValue('10/10/2008')
+});
+Then(/^Select end date$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.SelectEndDate.setValue('10/10/2009')
+});
+Then(/^Select client$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.ClickClient.click();
+    await browser.pause(4000)  
+    await LoginPage.SelectClient.click();
+
+});
+Then(/^Download the csv$/, async () => {
+    await browser.pause(4000)  
+    await LoginPage.Downloadcsv.click();
+});
+
+
+
+Then(/^verify Settings page should be displayed with six tiles$/, async () => {
+    await browser.pause(4000) 
+    await expect(LoginPage.ReportingTab).toBeExisting();
+    await browser.pause(1000) 
+    await expect(LoginPage.ClientsTab).toBeExisting();  
+    await browser.pause(1000) 
+    await expect(LoginPage.ClientsSettingTab).toBeExisting();
+    await browser.pause(1000) 
+    await expect(LoginPage.GroupsTab).toBeExisting();
+    await browser.pause(1000) 
+    await expect(LoginPage.MemberImportTab).toBeExisting();
+    await browser.pause(1000) 
+    await expect(LoginPage.SchemeImportTab).toBeExisting();
+
+
+
+  
+
+});
+
+
 Then(/^I should see a flash message saying (.*)$/, async (message) => {
     await expect(SecurePage.flashAlert).toBeExisting();
     await expect(SecurePage.flashAlert).toHaveTextContaining(message);
 });
-

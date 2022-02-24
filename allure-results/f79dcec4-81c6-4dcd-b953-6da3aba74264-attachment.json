@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//div[@class=\"column shrink brighter-header__bar-right\"]"
+}

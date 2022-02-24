@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//input[@class=\"brighter-radio-button__native-control\"])[2]"
+}

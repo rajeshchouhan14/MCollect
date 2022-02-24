@@ -1,0 +1,110 @@
+{
+  "uid" : "9be45c9cedc53255",
+  "name" : "User Contact TPT to get in touch with us online.",
+  "fullName" : "TC_WHITELABEL_TBBT_001 Regression suite.User Contact TPT to get in touch with us online.",
+  "historyId" : "40558271970b315ad0473ec02f9fbb8",
+  "time" : {
+    "start" : 1645521406108,
+    "stop" : 1645521437086,
+    "duration" : 30978
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Expect $(`//span[text()=\"Get in touch\"]`) to exist",
+  "statusTrace" : "Error: Expect $(`//span[text()=\"Get in touch\"]`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"\n                    at World.<anonymous> (C:\\Users\\Rajesh-chouhan\\OneDrive - MMC\\Desktop\\CMAKT\\cmaautomationrepo\\features\\step-definitions\\steps.js:42:38)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Expect $(`//span[text()=\"Get in touch\"]`) to exist",
+    "statusTrace" : "Error: Expect $(`//span[text()=\"Get in touch\"]`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"\n                    at World.<anonymous> (C:\\Users\\Rajesh-chouhan\\OneDrive - MMC\\Desktop\\CMAKT\\cmaautomationrepo\\features\\step-definitions\\steps.js:42:38)",
+    "steps" : [ {
+      "name" : "Given I open contact login page",
+      "time" : {
+        "start" : 1645521406117,
+        "stop" : 1645521421851,
+        "duration" : 15734
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1645521406123,
+          "stop" : 1645521421849,
+          "duration" : 15726
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fd9fadf22139f4a5",
+          "name" : "Request",
+          "source" : "fd9fadf22139f4a5.json",
+          "type" : "application/json",
+          "size" : 78
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "TC_WHITELABEL_TBBT_001 Regression suite"
+  }, {
+    "name" : "testClass",
+    "value" : "TC_WHITELABEL_TBBT_001 Regression suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "User Contact TPT to get in touch with us online."
+  }, {
+    "name" : "package",
+    "value" : "TC_WHITELABEL_TBBT_001 Regression suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9be45c9cedc53255.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

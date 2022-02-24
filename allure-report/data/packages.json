@@ -2,651 +2,945 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "TC_REF_BLUE_002 Regression suite",
-    "children" : [ {
-      "name" : "Blue team user provide information about request",
-      "uid" : "28f1f250f8a66ae",
-      "parentUid" : "2b8431b9ffbb6d87e0233f658b9c9eca",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463133056,
-        "stop" : 1644463190768,
-        "duration" : 57712
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "2b8431b9ffbb6d87e0233f658b9c9eca"
-  }, {
-    "name" : "TC_REF_GREEN_002 Regression suite",
-    "children" : [ {
-      "name" : "Green team user provide information about request",
-      "uid" : "d06cb0e960097d34",
-      "parentUid" : "fcdec3ff71fdedbd717368dfb4c149e8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463133352,
-        "stop" : 1644463187226,
-        "duration" : 53874
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "fcdec3ff71fdedbd717368dfb4c149e8"
-  }, {
-    "name" : "TC_REF_GREEN_001 Regression suite",
-    "children" : [ {
-      "name" : "User submit request with reference as green team",
-      "uid" : "c3c3c2729e4b2efb",
-      "parentUid" : "f75606fba33eaf9f8ce1b40de7d7bd41",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463133453,
-        "stop" : 1644463181168,
-        "duration" : 47715
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "f75606fba33eaf9f8ce1b40de7d7bd41"
-  }, {
-    "name" : "TC_WO_REF_GREEN_001 Regression suite",
-    "children" : [ {
-      "name" : "User submit request without reference as green team",
-      "uid" : "f3714540d34fd1b3",
-      "parentUid" : "4e026a4060d4c1258b906195d4416f00",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463133541,
-        "stop" : 1644463187865,
-        "duration" : 54324
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "4e026a4060d4c1258b906195d4416f00"
-  }, {
-    "name" : "TC_REF_BLUE_001 Regression suite",
-    "children" : [ {
-      "name" : "User submit request with reference as blue team",
-      "uid" : "9365787fc4e0577e",
-      "parentUid" : "e35cdb0740dce806d29afa1f88073e0c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463135184,
-        "stop" : 1644463185572,
-        "duration" : 50388
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "e35cdb0740dce806d29afa1f88073e0c"
-  }, {
-    "name" : "TC_WO_REF_GREEN_002 Regression suite",
-    "children" : [ {
-      "name" : "Without reference green team user provide information about request",
-      "uid" : "8867b7e15bd4ea20",
-      "parentUid" : "a489d80bb2ac1d11ddb0f30a21fd0050",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463432063,
-        "stop" : 1644463503880,
-        "duration" : 71817
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "a489d80bb2ac1d11ddb0f30a21fd0050"
-  }, {
-    "name" : "TC_REF_DONT_KNOW_002 Regression suite",
-    "children" : [ {
-      "name" : "With reference & without team name, user provide information about request",
-      "uid" : "3ad86eb91ab99a36",
-      "parentUid" : "1104ca57bc7147492ad2dcbaf093c0dd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463432160,
-        "stop" : 1644463494613,
-        "duration" : 62453
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "1104ca57bc7147492ad2dcbaf093c0dd"
-  }, {
-    "name" : "TC_WO_REF_BLUE_002 Regression suite",
-    "children" : [ {
-      "name" : "Without reference blue team user provide information about request",
-      "uid" : "f2ad82691ba25f39",
-      "parentUid" : "d20f6af7e6004fccb9ac488ac3e454fe",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463432331,
-        "stop" : 1644463503917,
-        "duration" : 71586
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "d20f6af7e6004fccb9ac488ac3e454fe"
-  }, {
-    "name" : "TC_REF_DONT_KNOW_001 Regression suite",
-    "children" : [ {
-      "name" : "User submit request with reference without team",
-      "uid" : "558ffd04beec6d26",
-      "parentUid" : "1a3c261ce0695421c2a6fc1130add6df",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463433120,
-        "stop" : 1644463493431,
-        "duration" : 60311
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "1a3c261ce0695421c2a6fc1130add6df"
-  }, {
-    "name" : "TC_WO_REF_BLUE_001 Regression suite",
-    "children" : [ {
-      "name" : "User submit request without reference as blue team",
-      "uid" : "ba441bb7bff5cb53",
-      "parentUid" : "103e3f9461146e74d31b87c8c81a938a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463433217,
-        "stop" : 1644463497127,
-        "duration" : 63910
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "103e3f9461146e74d31b87c8c81a938a"
-  }, {
-    "name" : "TC_BLUE_INSCOPE_001 Regression suite",
-    "children" : [ {
-      "name" : "Blue In Scope- Submit request with a reference",
-      "uid" : "bfa2fa1dbb2eac28",
-      "parentUid" : "e519fc47bd7d425e37eeeba59a729345",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463591974,
-        "stop" : 1644463644084,
-        "duration" : 52110
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "e519fc47bd7d425e37eeeba59a729345"
-  }, {
-    "name" : "TC_WHITELABEL_TBBT_001 Regression suite",
-    "children" : [ {
-      "name" : "User Contact TPT to get in touch with us online.",
-      "uid" : "65bf440d57884aa3",
-      "parentUid" : "0c7d7eeb1d34d04a75ce63e3cfff9960",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463593140,
-        "stop" : 1644463652073,
-        "duration" : 58933
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "0c7d7eeb1d34d04a75ce63e3cfff9960"
-  }, {
-    "name" : "TC_WO_REF_DONT_KNOW_001 Regression suite",
-    "children" : [ {
-      "name" : "User raise request without reference & team",
-      "uid" : "b6b86dadc9b15270",
-      "parentUid" : "9cb470ae03218c5652d50a0797bc86ee",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463593650,
-        "stop" : 1644463653120,
-        "duration" : 59470
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "9cb470ae03218c5652d50a0797bc86ee"
-  }, {
-    "name" : "TC_BLUE_INSCOPE_002 Regression suite",
-    "children" : [ {
-      "name" : "Blue In Scope- provide information about request",
-      "uid" : "912f00685d7e9584",
-      "parentUid" : "987fbdef9c696d303784cec653da2f53",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463593916,
-        "stop" : 1644463660601,
-        "duration" : 66685
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "987fbdef9c696d303784cec653da2f53"
-  }, {
-    "name" : "TC_WHITELABEL_TBBT_002 Regression suite",
-    "children" : [ {
-      "name" : "Contact TPT user provide information about request",
-      "uid" : "4b09b2171f083deb",
-      "parentUid" : "d0c53dd0833da1083c0deb398e752df6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463594197,
-        "stop" : 1644463664270,
-        "duration" : 70073
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "d0c53dd0833da1083c0deb398e752df6"
-  }, {
-    "name" : "TC_WO_REF_DONT_KNOW_002 Regression suite",
-    "children" : [ {
-      "name" : "User provide information about request without reference & team",
-      "uid" : "31510a3cac634aaa",
-      "parentUid" : "7c09a33f026d326bf4d9682847a28e49",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463665563,
-        "stop" : 1644463718057,
-        "duration" : 52494
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "7c09a33f026d326bf4d9682847a28e49"
-  }, {
-    "name" : "TC_All_Request_001 Regression suite",
-    "children" : [ {
-      "name" : "User select All request",
-      "uid" : "ae3428c14a945731",
-      "parentUid" : "54bcf880fda3284dad8bde25588327f7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463759515,
-        "stop" : 1644463833368,
-        "duration" : 73853
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "54bcf880fda3284dad8bde25588327f7"
-  }, {
-    "name" : "TC_Accepted_Request_001 Regression suite",
-    "children" : [ {
-      "name" : "User select Accepted request",
-      "uid" : "ed9bc66cd90b7473",
-      "parentUid" : "3000cf18dfd3daf1762126b1c7106321",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463760308,
-        "stop" : 1644463833543,
-        "duration" : 73235
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    }, {
-      "name" : "User sort Accepted request",
-      "uid" : "5460bb6556a4d613",
-      "parentUid" : "3000cf18dfd3daf1762126b1c7106321",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463977732,
-        "stop" : 1644464044914,
-        "duration" : 67182
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "3000cf18dfd3daf1762126b1c7106321"
-  }, {
-    "name" : "TC_Pending_Request_001 Regression suite",
-    "children" : [ {
-      "name" : "User select Pending request",
-      "uid" : "b03230483851d977",
-      "parentUid" : "da05d0b74db59c7972b7550b42d70bcf",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463760340,
-        "stop" : 1644463825088,
-        "duration" : 64748
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "da05d0b74db59c7972b7550b42d70bcf"
-  }, {
-    "name" : "TC_Rejected_Request_001 Regression suite",
-    "children" : [ {
-      "name" : "User select Rejected request",
-      "uid" : "c7ca8792063772b4",
-      "parentUid" : "ae4e52c9e63b49fd98afd144f01bfd19",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463760485,
-        "stop" : 1644463831367,
-        "duration" : 70882
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "ae4e52c9e63b49fd98afd144f01bfd19"
-  }, {
-    "name" : "TC_Dashboard_001 Regression suite",
-    "children" : [ {
-      "name" : "Admin - Dashboard Summary",
-      "uid" : "42615dd04d4532a8",
-      "parentUid" : "41ed730aad37b7cb4e101af67e23aed9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463760947,
-        "stop" : 1644463844710,
-        "duration" : 83763
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "41ed730aad37b7cb4e101af67e23aed9"
-  }, {
-    "name" : "TC_Pending_Sort_001 Regression suite",
-    "children" : [ {
-      "name" : "User sort Pending request",
-      "uid" : "962a51ebf18793b3",
-      "parentUid" : "79f54af9e7beea3d8b30f6fe9d74fbc5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463977835,
-        "stop" : 1644464051360,
-        "duration" : 73525
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "79f54af9e7beea3d8b30f6fe9d74fbc5"
-  }, {
-    "name" : "TC_All_Sort_001 Regression suite",
-    "children" : [ {
-      "name" : "User sort All request",
-      "uid" : "8e15deee1786c2c7",
-      "parentUid" : "e5293fd0125a7764516ad5fdc0d1705d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463978360,
-        "stop" : 1644464056491,
-        "duration" : 78131
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "e5293fd0125a7764516ad5fdc0d1705d"
-  }, {
-    "name" : "TC_Take_Blue_Request_001 Regression suite",
-    "children" : [ {
-      "name" : "Take Blue Team Request",
-      "uid" : "13f33896997d95c3",
-      "parentUid" : "8deaafe649a2cd900864935abc35d2f4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463980388,
-        "stop" : 1644464027319,
-        "duration" : 46931
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "8deaafe649a2cd900864935abc35d2f4"
-  }, {
-    "name" : "TC_Rejected_Sort_001 Regression suite",
-    "children" : [ {
-      "name" : "User sort Rejected request",
-      "uid" : "5f2167b7232caed9",
-      "parentUid" : "695f64166bd78447ad84d180d2be8eb1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644463980684,
-        "stop" : 1644464053100,
-        "duration" : 72416
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "695f64166bd78447ad84d180d2be8eb1"
-  }, {
-    "name" : "TC_Take_ContactTpt_Request_001 Regression suite",
-    "children" : [ {
-      "name" : "Take Contact TPT Team Request",
-      "uid" : "7c418734b310c41d",
-      "parentUid" : "66f11c69d6e81befde114f4721629c00",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644467703887,
-        "stop" : 1644467747725,
-        "duration" : 43838
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 6,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "66f11c69d6e81befde114f4721629c00"
-  }, {
-    "name" : "TC_Create_Case_Req_001 Regression suite",
-    "children" : [ {
-      "name" : "Create case for Selected Request",
-      "uid" : "c317a02abb0ef4ef",
-      "parentUid" : "5ac7c3e18ce35a82843e38033ffe5b85",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644467705880,
-        "stop" : 1644467793614,
-        "duration" : 87734
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 6,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-98.0.4758.82" ]
-    } ],
-    "uid" : "5ac7c3e18ce35a82843e38033ffe5b85"
-  }, {
     "name" : "TC_Edit_Request_001 Regression suite",
     "children" : [ {
       "name" : "Edit Request for team",
-      "uid" : "3c69b28fe16eed85",
+      "uid" : "2f8b7791e6362809",
       "parentUid" : "3d8cbd63dd8cc8424fe9e4cfae5a3c00",
       "status" : "passed",
       "time" : {
-        "start" : 1644467705912,
-        "stop" : 1644467784858,
-        "duration" : 78946
+        "start" : 1645521073300,
+        "stop" : 1645521159386,
+        "duration" : 86086
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 6,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-98.0.4758.82" ]
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
     } ],
     "uid" : "3d8cbd63dd8cc8424fe9e4cfae5a3c00"
   }, {
     "name" : "TC_Take_BlueInscope_Request_001 Regression suite",
     "children" : [ {
       "name" : "Take Blue Team Inscope Request",
-      "uid" : "5476e4ed5d7d8a51",
+      "uid" : "58d156fa61edca42",
       "parentUid" : "5a9a00c74dc71745a69a0b31e475829e",
       "status" : "passed",
       "time" : {
-        "start" : 1644467705969,
-        "stop" : 1644467751445,
-        "duration" : 45476
+        "start" : 1645521073442,
+        "stop" : 1645521114651,
+        "duration" : 41209
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "5a9a00c74dc71745a69a0b31e475829e"
+  }, {
+    "name" : "TC_Create_Case_Req_001 Regression suite",
+    "children" : [ {
+      "name" : "Create case for Selected Request",
+      "uid" : "3f784bb007f51ccf",
+      "parentUid" : "5ac7c3e18ce35a82843e38033ffe5b85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521073576,
+        "stop" : 1645521167596,
+        "duration" : 94020
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "5ac7c3e18ce35a82843e38033ffe5b85"
+  }, {
+    "name" : "TC_Take_Green_Request_001 Regression suite",
+    "children" : [ {
+      "name" : "Take Green Team Request",
+      "uid" : "fe353805ee6a1241",
+      "parentUid" : "4ad6458dd78190d9873d88b41dc60296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521073710,
+        "stop" : 1645521114415,
+        "duration" : 40705
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "4ad6458dd78190d9873d88b41dc60296"
+  }, {
+    "name" : "TC_Take_ContactTpt_Request_001 Regression suite",
+    "children" : [ {
+      "name" : "Take Contact TPT Team Request",
+      "uid" : "1d8cda6d04821cce",
+      "parentUid" : "66f11c69d6e81befde114f4721629c00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521073816,
+        "stop" : 1645521119571,
+        "duration" : 45755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "66f11c69d6e81befde114f4721629c00"
+  }, {
+    "name" : "TC_WO_REF_GREEN_001 Regression suite",
+    "children" : [ {
+      "name" : "User submit request without reference as green team",
+      "uid" : "605fa986e2514487",
+      "parentUid" : "4e026a4060d4c1258b906195d4416f00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521209244,
+        "stop" : 1645521258738,
+        "duration" : 49494
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "4e026a4060d4c1258b906195d4416f00"
+  }, {
+    "name" : "TC_REF_GREEN_001 Regression suite",
+    "children" : [ {
+      "name" : "User submit request with reference as green team",
+      "uid" : "245c0cc8b2ed72aa",
+      "parentUid" : "f75606fba33eaf9f8ce1b40de7d7bd41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521209946,
+        "stop" : 1645521249920,
+        "duration" : 39974
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "f75606fba33eaf9f8ce1b40de7d7bd41"
+  }, {
+    "name" : "TC_REF_BLUE_002 Regression suite",
+    "children" : [ {
+      "name" : "Blue team user provide information about request",
+      "uid" : "b0afa127dd24f0a8",
+      "parentUid" : "2b8431b9ffbb6d87e0233f658b9c9eca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521209998,
+        "stop" : 1645521259287,
+        "duration" : 49289
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "2b8431b9ffbb6d87e0233f658b9c9eca"
+  }, {
+    "name" : "TC_REF_GREEN_002 Regression suite",
+    "children" : [ {
+      "name" : "Green team user provide information about request",
+      "uid" : "31c6aa73d315f7a0",
+      "parentUid" : "fcdec3ff71fdedbd717368dfb4c149e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521210753,
+        "stop" : 1645521257826,
+        "duration" : 47073
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "fcdec3ff71fdedbd717368dfb4c149e8"
+  }, {
+    "name" : "TC_REF_BLUE_001 Regression suite",
+    "children" : [ {
+      "name" : "User submit request with reference as blue team",
+      "uid" : "3ac733cbf13abfea",
+      "parentUid" : "e35cdb0740dce806d29afa1f88073e0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521211027,
+        "stop" : 1645521254564,
+        "duration" : 43537
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "e35cdb0740dce806d29afa1f88073e0c"
+  }, {
+    "name" : "TC_WO_REF_GREEN_002 Regression suite",
+    "children" : [ {
+      "name" : "Without reference green team user provide information about request",
+      "uid" : "be19aeef8086c700",
+      "parentUid" : "a489d80bb2ac1d11ddb0f30a21fd0050",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521287168,
+        "stop" : 1645521349927,
+        "duration" : 62759
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "a489d80bb2ac1d11ddb0f30a21fd0050"
+  }, {
+    "name" : "TC_REF_DONT_KNOW_001 Regression suite",
+    "children" : [ {
+      "name" : "User submit request with reference without team",
+      "uid" : "4a58a235736177e2",
+      "parentUid" : "1a3c261ce0695421c2a6fc1130add6df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521287488,
+        "stop" : 1645521332452,
+        "duration" : 44964
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "1a3c261ce0695421c2a6fc1130add6df"
+  }, {
+    "name" : "TC_WO_REF_BLUE_001 Regression suite",
+    "children" : [ {
+      "name" : "User submit request without reference as blue team",
+      "uid" : "b9ea9ec6c39048df",
+      "parentUid" : "103e3f9461146e74d31b87c8c81a938a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521287784,
+        "stop" : 1645521342133,
+        "duration" : 54349
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "103e3f9461146e74d31b87c8c81a938a"
+  }, {
+    "name" : "TC_WO_REF_BLUE_002 Regression suite",
+    "children" : [ {
+      "name" : "Without reference blue team user provide information about request",
+      "uid" : "97c46dedd296dc5d",
+      "parentUid" : "d20f6af7e6004fccb9ac488ac3e454fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521287957,
+        "stop" : 1645521350232,
+        "duration" : 62275
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "d20f6af7e6004fccb9ac488ac3e454fe"
+  }, {
+    "name" : "TC_REF_DONT_KNOW_002 Regression suite",
+    "children" : [ {
+      "name" : "With reference & without team name, user provide information about request",
+      "uid" : "f6fca512d7cb0705",
+      "parentUid" : "1104ca57bc7147492ad2dcbaf093c0dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521288014,
+        "stop" : 1645521341214,
+        "duration" : 53200
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "1104ca57bc7147492ad2dcbaf093c0dd"
+  }, {
+    "name" : "TC_BLUE_INSCOPE_002 Regression suite",
+    "children" : [ {
+      "name" : "Blue In Scope- provide information about request",
+      "uid" : "ede3d1c1dac3dce8",
+      "parentUid" : "987fbdef9c696d303784cec653da2f53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521638249,
+        "stop" : 1645521687394,
+        "duration" : 49145
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "987fbdef9c696d303784cec653da2f53"
+  }, {
+    "name" : "TC_WHITELABEL_TBBT_001 Regression suite",
+    "children" : [ {
+      "name" : "User Contact TPT to get in touch with us online.",
+      "uid" : "679dd60861380e02",
+      "parentUid" : "0c7d7eeb1d34d04a75ce63e3cfff9960",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521639116,
+        "stop" : 1645521685537,
+        "duration" : 46421
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "0c7d7eeb1d34d04a75ce63e3cfff9960"
+  }, {
+    "name" : "TC_BLUE_INSCOPE_001 Regression suite",
+    "children" : [ {
+      "name" : "Blue In Scope- Submit request with a reference",
+      "uid" : "a886116f20e834c5",
+      "parentUid" : "e519fc47bd7d425e37eeeba59a729345",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521639233,
+        "stop" : 1645521682863,
+        "duration" : 43630
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "e519fc47bd7d425e37eeeba59a729345"
+  }, {
+    "name" : "TC_WO_REF_DONT_KNOW_001 Regression suite",
+    "children" : [ {
+      "name" : "User raise request without reference & team",
+      "uid" : "bb4e6cd7e9569ad9",
+      "parentUid" : "9cb470ae03218c5652d50a0797bc86ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521639236,
+        "stop" : 1645521689498,
+        "duration" : 50262
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "9cb470ae03218c5652d50a0797bc86ee"
+  }, {
+    "name" : "TC_WHITELABEL_TBBT_002 Regression suite",
+    "children" : [ {
+      "name" : "Contact TPT user provide information about request",
+      "uid" : "961f9c2b38e2fcbd",
+      "parentUid" : "d0c53dd0833da1083c0deb398e752df6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521639933,
+        "stop" : 1645521694006,
+        "duration" : 54073
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "d0c53dd0833da1083c0deb398e752df6"
+  }, {
+    "name" : "TC_WO_REF_DONT_KNOW_002 Regression suite",
+    "children" : [ {
+      "name" : "User provide information about request without reference & team",
+      "uid" : "93b8e42510d5af5c",
+      "parentUid" : "7c09a33f026d326bf4d9682847a28e49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521694480,
+        "stop" : 1645521751254,
+        "duration" : 56774
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "7c09a33f026d326bf4d9682847a28e49"
+  }, {
+    "name" : "TC_Accepted_Request_001 Regression suite",
+    "children" : [ {
+      "name" : "User select Accepted request",
+      "uid" : "263045f9f84ed0",
+      "parentUid" : "3000cf18dfd3daf1762126b1c7106321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521782073,
+        "stop" : 1645521823991,
+        "duration" : 41918
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    }, {
+      "name" : "User sort Accepted request",
+      "uid" : "945903e917a5b6e0",
+      "parentUid" : "3000cf18dfd3daf1762126b1c7106321",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521984082,
+        "stop" : 1645522034353,
+        "duration" : 50271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "3000cf18dfd3daf1762126b1c7106321"
+  }, {
+    "name" : "TC_All_Request_001 Regression suite",
+    "children" : [ {
+      "name" : "User select All request",
+      "uid" : "17aa20caee5cdd3a",
+      "parentUid" : "54bcf880fda3284dad8bde25588327f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521782079,
+        "stop" : 1645521824662,
+        "duration" : 42583
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "54bcf880fda3284dad8bde25588327f7"
+  }, {
+    "name" : "TC_Dashboard_001 Regression suite",
+    "children" : [ {
+      "name" : "Admin - Dashboard Summary",
+      "uid" : "5629845c210995ca",
+      "parentUid" : "41ed730aad37b7cb4e101af67e23aed9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521782188,
+        "stop" : 1645521829583,
+        "duration" : 47395
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "41ed730aad37b7cb4e101af67e23aed9"
+  }, {
+    "name" : "TC_Pending_Request_001 Regression suite",
+    "children" : [ {
+      "name" : "User select Pending request",
+      "uid" : "effcaa4877e82d1e",
+      "parentUid" : "da05d0b74db59c7972b7550b42d70bcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521782265,
+        "stop" : 1645521817339,
+        "duration" : 35074
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "da05d0b74db59c7972b7550b42d70bcf"
+  }, {
+    "name" : "TC_Rejected_Request_001 Regression suite",
+    "children" : [ {
+      "name" : "User select Rejected request",
+      "uid" : "c886c7e57948b5bb",
+      "parentUid" : "ae4e52c9e63b49fd98afd144f01bfd19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521782319,
+        "stop" : 1645521823301,
+        "duration" : 40982
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "ae4e52c9e63b49fd98afd144f01bfd19"
+  }, {
+    "name" : "TC_Take_Blue_Request_001 Regression suite",
+    "children" : [ {
+      "name" : "Take Blue Team Request",
+      "uid" : "cf0c6266ba9394a7",
+      "parentUid" : "8deaafe649a2cd900864935abc35d2f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521983581,
+        "stop" : 1645522023453,
+        "duration" : 39872
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "8deaafe649a2cd900864935abc35d2f4"
+  }, {
+    "name" : "TC_All_Sort_001 Regression suite",
+    "children" : [ {
+      "name" : "User sort All request",
+      "uid" : "1a998ede81915365",
+      "parentUid" : "e5293fd0125a7764516ad5fdc0d1705d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521983735,
+        "stop" : 1645522025014,
+        "duration" : 41279
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "e5293fd0125a7764516ad5fdc0d1705d"
+  }, {
+    "name" : "TC_Rejected_Sort_001 Regression suite",
+    "children" : [ {
+      "name" : "User sort Rejected request",
+      "uid" : "ea6bb040a65db22d",
+      "parentUid" : "695f64166bd78447ad84d180d2be8eb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521983862,
+        "stop" : 1645522032313,
+        "duration" : 48451
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "695f64166bd78447ad84d180d2be8eb1"
+  }, {
+    "name" : "TC_Pending_Sort_001 Regression suite",
+    "children" : [ {
+      "name" : "User sort Pending request",
+      "uid" : "e5cb22c5e5510c60",
+      "parentUid" : "79f54af9e7beea3d8b30f6fe9d74fbc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645521984141,
+        "stop" : 1645522025165,
+        "duration" : 41024
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "79f54af9e7beea3d8b30f6fe9d74fbc5"
+  }, {
+    "name" : "TTC_One&Done_Req_002 Regression suite",
+    "children" : [ {
+      "name" : "One and Done for Selected request - Send mail and createcase",
+      "uid" : "6f9bfabb932ceb48",
+      "parentUid" : "4a1b1a2322bb86b11602ef9e73c79c86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645527500137,
+        "stop" : 1645527628353,
+        "duration" : 128216
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "4a1b1a2322bb86b11602ef9e73c79c86"
+  }, {
+    "name" : "TTC_One&Done_Req_005 Regression suite",
+    "children" : [ {
+      "name" : "One and Done for Selected request -3rd Party- Save  record",
+      "uid" : "43d2773e4bc5ef73",
+      "parentUid" : "a029fa0f2f6e9077641b1f70596d8500",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645527500515,
+        "stop" : 1645527648028,
+        "duration" : 147513
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "a029fa0f2f6e9077641b1f70596d8500"
+  }, {
+    "name" : "TTC_One&Done_Req_004 Regression suite",
+    "children" : [ {
+      "name" : "One and Done for Selected request - Send Phone record - Save Record & Create Case",
+      "uid" : "cf00a446c59937b",
+      "parentUid" : "6ccca39a571188b397acce7cbc42ac3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645527500518,
+        "stop" : 1645527670108,
+        "duration" : 169590
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "6ccca39a571188b397acce7cbc42ac3a"
+  }, {
+    "name" : "TC_One&Done_Req_001 Regression suite",
+    "children" : [ {
+      "name" : "One and Done for Selected request - Send mail",
+      "uid" : "f28f0ed0c28bf15e",
+      "parentUid" : "905b9b55548816ee6ffe46d5fce32141",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645527500918,
+        "stop" : 1645527639792,
+        "duration" : 138874
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "905b9b55548816ee6ffe46d5fce32141"
+  }, {
+    "name" : "TTC_One&Done_Req_003 Regression suite",
+    "children" : [ {
+      "name" : "One and Done for Selected request - Send Phone record- Save record",
+      "uid" : "4152a58912553e34",
+      "parentUid" : "0330f498b32d589326b3de9ee997b0ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645527500939,
+        "stop" : 1645527681305,
+        "duration" : 180366
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "0330f498b32d589326b3de9ee997b0ce"
+  }, {
+    "name" : "TTC_One&Done_Req_006 Regression suite",
+    "children" : [ {
+      "name" : "One and Done for Selected request -3rd Party- Save  record and createcase",
+      "uid" : "351c248d72f91a2e",
+      "parentUid" : "80716685b5b0bf2cc92cf722afcad8db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645527635855,
+        "stop" : 1645527750517,
+        "duration" : 114662
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 5,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "80716685b5b0bf2cc92cf722afcad8db"
+  }, {
+    "name" : "TC_Reassign_Request_001 Regression suite",
+    "children" : [ {
+      "name" : "Reassign Team",
+      "uid" : "ffaab8ed5090ef47",
+      "parentUid" : "28057303f7e4477264946b0fbc25a4ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645536231591,
+        "stop" : 1645536292681,
+        "duration" : 61090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "28057303f7e4477264946b0fbc25a4ab"
+  }, {
+    "name" : "T_Admin_Settings_001 Regression suite",
+    "children" : [ {
+      "name" : "Navigate to Admin Settings",
+      "uid" : "64e62bc036240509",
+      "parentUid" : "bd174743c62f80147f030203e3d6affd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645536231981,
+        "stop" : 1645536287549,
+        "duration" : 55568
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "bd174743c62f80147f030203e3d6affd"
+  }, {
+    "name" : "TC_Reject_ Request_001 Regression suite",
+    "children" : [ {
+      "name" : "Reject Request",
+      "uid" : "2314bbe18326ef69",
+      "parentUid" : "e290993ebb4f9a7dde959af1ab1e9738",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645536232319,
+        "stop" : 1645536292722,
+        "duration" : 60403
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
       "retriesCount" : 8,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-98.0.4758.82" ]
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-98.0.4758.102" ]
     } ],
-    "uid" : "5a9a00c74dc71745a69a0b31e475829e"
+    "uid" : "e290993ebb4f9a7dde959af1ab1e9738"
   }, {
-    "name" : "TC_Take_Green_Request_001 Regression suite",
+    "name" : "TC_Client_settings_001 Regression suite",
     "children" : [ {
-      "name" : "Take Green Team Request",
-      "uid" : "43d388744b2ac688",
-      "parentUid" : "4ad6458dd78190d9873d88b41dc60296",
+      "name" : "Add Google Font",
+      "uid" : "9f869527431f78b3",
+      "parentUid" : "290d0f65a9060f5a36f79fcda10b10c3",
       "status" : "passed",
       "time" : {
-        "start" : 1644467706726,
-        "stop" : 1644467750832,
-        "duration" : 44106
+        "start" : 1645687421888,
+        "stop" : 1645687482115,
+        "duration" : 60227
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 6,
+      "retriesCount" : 3,
       "retriesStatusChange" : false,
-      "parameters" : [ "chrome-98.0.4758.82" ]
+      "parameters" : [ "chrome-98.0.4758.102" ]
     } ],
-    "uid" : "4ad6458dd78190d9873d88b41dc60296"
+    "uid" : "290d0f65a9060f5a36f79fcda10b10c3"
+  }, {
+    "name" : "TC_Client_Add_001 Regression suite",
+    "children" : [ {
+      "name" : "Add Client",
+      "uid" : "e9ab9108b28d687f",
+      "parentUid" : "38e785d193d2a9cb1378aecc871f11bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645687422559,
+        "stop" : 1645687490663,
+        "duration" : 68104
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "38e785d193d2a9cb1378aecc871f11bb"
+  }, {
+    "name" : "TC_Add_Group_001 Regression suite",
+    "children" : [ {
+      "name" : "Add Group",
+      "uid" : "72cb379e39b4c663",
+      "parentUid" : "a7b8687d6019a78d3bd5aa81005f2b97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645687422715,
+        "stop" : 1645687492838,
+        "duration" : 70123
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "a7b8687d6019a78d3bd5aa81005f2b97"
+  }, {
+    "name" : "TC_Client_settings_002 Regression suite",
+    "children" : [ {
+      "name" : "Delete Google Font",
+      "uid" : "ace886afa2c06243",
+      "parentUid" : "0b5f709c2ed120227b053c59a5abe9bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645687424524,
+        "stop" : 1645687482968,
+        "duration" : 58444
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "0b5f709c2ed120227b053c59a5abe9bd"
+  }, {
+    "name" : "TC_Reporting_001 Regression suite",
+    "children" : [ {
+      "name" : "Reporting",
+      "uid" : "cf682210d9bcdff8",
+      "parentUid" : "fb4571e3e4cc2858ba9925ae4ac9ae7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645687425341,
+        "stop" : 1645687493404,
+        "duration" : 68063
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-98.0.4758.102" ]
+    } ],
+    "uid" : "fb4571e3e4cc2858ba9925ae4ac9ae7b"
   } ]
 }

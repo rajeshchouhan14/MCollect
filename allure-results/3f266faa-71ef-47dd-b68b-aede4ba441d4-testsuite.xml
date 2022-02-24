@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645534342398' stop='1645534371187'>
+    <name>T_Admin_Settings_001 Regression suite</name>
+    <title>T_Admin_Settings_001 Regression suite</title>
+    <test-cases>
+        <test-case start='1645534342440' status='broken' stop='1645534371179'>
+            <name>Navigate to Admin Settings</name>
+            <title>Navigate to Admin Settings</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645534342444' status='passed' stop='1645534360246'>
+                    <name>Given I open admin Dashboard login page</name>
+                    <title>Given I open admin Dashboard login page</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1645534342448' status='passed' stop='1645534360244'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='bdfd001e-eb7c-4830-ad1a-fc0e0c8e872b-attachment.json' type='application/json' size='78'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable</message>
+                <stack-trace>element not interactable
+                  (Session info: chrome=98.0.4758.102)
+                Backtrace:
+                	Ordinal0 [0x0038FDC3+2555331]
+                	Ordinal0 [0x003277F1+2127857]
+                	Ordinal0 [0x00222CD0+1060048]
+                	Ordinal0 [0x0024F3AE+1242030]
+                	Ordinal0 [0x00244FB3+1200051]
+                	Ordinal0 [0x00267B0C+1342220]
+                	Ordinal0 [0x00244984+1198468]
+                	Ordinal0 [0x00267C14+1342484]
+                	Ordinal0 [0x002775FA+1406458]
+                	Ordinal0 [0x00267976+1341814]
+                	Ordinal0 [0x002436B6+1193654]
+                	Ordinal0 [0x00244546+1197382]
+                	GetHandleVerifier [0x00529622+1619522]
+                	GetHandleVerifier [0x005D882C+2336844]
+                	GetHandleVerifier [0x004223E1+541697]
+                	GetHandleVerifier [0x00421443+537699]
+                	Ordinal0 [0x0032D18E+2150798]
+                	Ordinal0 [0x00331518+2168088]
+                	Ordinal0 [0x00331660+2168416]
+                	Ordinal0 [0x0033B330+2208560]
+                	BaseThreadInitThunk [0x7646FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x775E7A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x775E7A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

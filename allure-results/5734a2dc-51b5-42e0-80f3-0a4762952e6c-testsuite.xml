@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1645521406145' stop='1645521437467'>
+    <name>TC_BLUE_INSCOPE_002 Regression suite</name>
+    <title>TC_BLUE_INSCOPE_002 Regression suite</title>
+    <test-cases>
+        <test-case start='1645521406768' status='failed' stop='1645521437371'>
+            <name>Blue In Scope- provide information about request</name>
+            <title>Blue In Scope- provide information about request</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-98.0.4758.102'/>
+            </parameters>
+            <steps>
+                <step start='1645521406776' status='passed' stop='1645521424551'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1645521406782' status='passed' stop='1645521424548'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='8583a95c-8fd6-44fb-b655-daad06107949-attachment.json' type='application/json' size='68'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Expect $(`//span[text()="Submit request with a reference"]`) to exist</message>
+                <stack-trace>Error: Expect $(`//span[text()="Submit request with a reference"]`) to exist
+                
+                Expected: "exist"
+                Received: "not exist"
+                    at World.&lt;anonymous> (C:\Users\Rajesh-chouhan\OneDrive - MMC\Desktop\CMAKT\cmaautomationrepo\features\step-definitions\steps.js:68:40)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

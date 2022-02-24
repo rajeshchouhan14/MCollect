@@ -1,0 +1,110 @@
+{
+  "uid" : "7960c20b9bf4049e",
+  "name" : "Blue In Scope- Submit request with a reference",
+  "fullName" : "TC_BLUE_INSCOPE_001 Regression suite.Blue In Scope- Submit request with a reference",
+  "historyId" : "a4379c20a5ea3b76159a6a98004a5a5b",
+  "time" : {
+    "start" : 1645521406066,
+    "stop" : 1645521434910,
+    "duration" : 28844
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Expect $(`//span[text()=\"Submit request with a reference\"]`) to exist",
+  "statusTrace" : "Error: Expect $(`//span[text()=\"Submit request with a reference\"]`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"\n                    at World.<anonymous> (C:\\Users\\Rajesh-chouhan\\OneDrive - MMC\\Desktop\\CMAKT\\cmaautomationrepo\\features\\step-definitions\\steps.js:68:40)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Expect $(`//span[text()=\"Submit request with a reference\"]`) to exist",
+    "statusTrace" : "Error: Expect $(`//span[text()=\"Submit request with a reference\"]`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"\n                    at World.<anonymous> (C:\\Users\\Rajesh-chouhan\\OneDrive - MMC\\Desktop\\CMAKT\\cmaautomationrepo\\features\\step-definitions\\steps.js:68:40)",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1645521406071,
+        "stop" : 1645521423151,
+        "duration" : 17080
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/url",
+        "time" : {
+          "start" : 1645521406075,
+          "stop" : 1645521423149,
+          "duration" : 17074
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "53954cb928a826f3",
+          "name" : "Request",
+          "source" : "53954cb928a826f3.json",
+          "type" : "application/json",
+          "size" : 68
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "TC_BLUE_INSCOPE_001 Regression suite"
+  }, {
+    "name" : "testClass",
+    "value" : "TC_BLUE_INSCOPE_001 Regression suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "Blue In Scope- Submit request with a reference"
+  }, {
+    "name" : "package",
+    "value" : "TC_BLUE_INSCOPE_001 Regression suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-98.0.4758.102"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7960c20b9bf4049e.json",
+  "parameterValues" : [ "chrome-98.0.4758.102" ]
+}

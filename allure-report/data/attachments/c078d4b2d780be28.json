@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//div[@class=\"brighter-control__input-wrapper\"])[2]\"}\n  (Session info: chrome=98.0.4758.102)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x0038FDC3+2555331]\n\tOrdinal0 [0x003277F1+2127857]\n\tOrdinal0 [0x00222E08+1060360]\n\tOrdinal0 [0x0024E49E+1238174]\n\tOrdinal0 [0x0024E69B+1238683]\n\tOrdinal0 [0x00279252+1413714]\n\tOrdinal0 [0x00267B54+1342292]\n\tOrdinal0 [0x002775FA+1406458]\n\tOrdinal0 [0x00267976+1341814]\n\tOrdinal0 [0x002436B6+1193654]\n\tOrdinal0 [0x00244546+1197382]\n\tGetHandleVerifier [0x00529622+1619522]\n\tGetHandleVerifier [0x005D882C+2336844]\n\tGetHandleVerifier [0x004223E1+541697]\n\tGetHandleVerifier [0x00421443+537699]\n\tOrdinal0 [0x0032D18E+2150798]\n\tOrdinal0 [0x00331518+2168088]\n\tOrdinal0 [0x00331660+2168416]\n\tOrdinal0 [0x0033B330+2208560]\n\tBaseThreadInitThunk [0x7646FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x775E7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775E7A6E+238]\n"
+}

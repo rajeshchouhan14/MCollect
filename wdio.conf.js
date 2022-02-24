@@ -35,9 +35,13 @@ exports.config = {
         Milestone4: ['./features/Admin_Feature/Milestone4/*.feature'],
         Milestone5: ['./features/Admin_Feature/Milestone5/*.feature'],
         Milestone6: ['./features/Admin_Feature/Milestone6/*.feature'],
+        Milestone7: ['./features/Admin_Feature/Milestone7/*.feature'],
+        Milestone8: ['./features/Admin_Feature/Milestone8/*.feature'],
+        Milestone9: ['./features/Admin_Feature/Milestone9/*.feature'],
+
         memberScreen: ['./features/MemberScreen_Feature/*.feature'],
         adminScreen: ['./features/Admin_Feature/*.feature'],
-        singlecheck: ['./features/Admin_Feature/Milestone6/Take_blueTeamInscopeRequest.feature'],
+        singlecheck: ['./features/Admin_Feature/Milestone9/TC_Reporting_001.feature'],
     },
     //
     // ============
@@ -69,7 +73,14 @@ exports.config = {
         maxInstances: 5,
         //
         browserName: 'chrome',
-        acceptInsecureCerts: true
+        acceptInsecureCerts: true,
+
+        // 'goog:chromeOptions': {
+        //     // to run chrome headless the following flags are required
+        //     // (see https://developers.google.com/web/updates/2017/04/headless-chrome)
+        //     // args: ['--headless', '--disable-gpu'],
+        //     }
+        
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
