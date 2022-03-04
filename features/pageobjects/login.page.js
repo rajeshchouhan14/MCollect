@@ -158,6 +158,16 @@ class LoginPage extends Page {
         
     }
     
+    get TakeRecentRequest6() {
+        return $('//tbody[@class="ng-star-inserted"]/tr[6]');
+        
+    }
+    
+    get TakeRecentRequest5() {
+        return $('//tbody[@class="ng-star-inserted"]/tr[5]');
+        
+    }
+    
     get TakeRecentRequest2() {
         return $('//tbody[@class="ng-star-inserted"]/tr[2]');
         
@@ -579,7 +589,12 @@ class LoginPage extends Page {
     }
     
     get ClickDropRequest() {
-        return $('//div[@class="brighter-select__value"]/span');
+        return $('//div[@class="mos-c-modal__content"]/div//div/span');
+        
+    }
+    
+    get CrossDropRequest() {
+        return $('//div[@class="brighter-select__clear-wrapper ng-star-inserted"]');
         
     }
     
@@ -594,7 +609,7 @@ class LoginPage extends Page {
     }
     
     get CloseTeam() {
-        return $('//div[@class="mos-c-modal__close-wrapper--circle ng-tns-c50-6 ng-star-inserted"]');
+        return $('//button[@class="mos-c-modal__close ng-tns-c50-8"]');
         
     }
     
@@ -738,7 +753,7 @@ class LoginPage extends Page {
     }
     
     get ClickReasonBtn() {
-        return $('//div[@class="brighter-select__value"]');
+        return $('//div[@class="columns small-6"]//div[@class="brighter-select__value"]');
         
     }
     get SelectReasonBtn() {

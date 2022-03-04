@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "(//div[text()=\"blue\"]/../../following-sibling::td[7])[1]"
-}

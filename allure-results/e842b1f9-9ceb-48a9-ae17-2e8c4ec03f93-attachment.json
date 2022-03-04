@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//tbody[@class=\"ng-star-inserted\"]/tr[2]"
-}

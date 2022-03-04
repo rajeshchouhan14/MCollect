@@ -541,8 +541,37 @@ Then(/^click on take button for green team InScope request$/, async () => {
     // await expect(LoginPage.verifyOutScopeTeamPage1).toBeExisting();
 });
 
-Then(/^click on take button for recent request$/, async () => {
+Then(/^click on take button for recent request21$/, async () => {
+    try{
+    //  await LoginPage.arrangeDate.doubleClick()
+     await LoginPage.arrangeDate.click()
+
+    // await browser.pause(4000)
+    await LoginPage.TakeRecentRequest.click()
+    // await browser.pause(4000)
+
+    } catch(err){   
+    await LoginPage.arrangeDate.click()
+    // await browser.pause(4000)
+    await LoginPage.TakeRecentRequest.click()  
+    }
+    });
+
+Then(/^click on take button for recent request6$/, async () => {
     await browser.pause(6000)
+    await LoginPage.arrangeDate.doubleClick()
+
+    await LoginPage.arrangeDate.click()
+    await browser.pause(6000)
+    await LoginPage.TakeRecentRequest6.click()
+    // browser.pause(10000)
+    // await expect(LoginPage.verifyOutScopeTeamPage1).toBeExisting();
+});
+
+Then(/^click on take button for recent request5$/, async () => {
+    await browser.pause(6000)
+    await LoginPage.arrangeDate.doubleClick()
+
     await LoginPage.arrangeDate.click()
     await browser.pause(6000)
     await LoginPage.TakeRecentRequest.click()
@@ -552,15 +581,19 @@ Then(/^click on take button for recent request$/, async () => {
 
 Then(/^click on take button for recent request2$/, async () => {
     await browser.pause(6000)
+    await LoginPage.arrangeDate.doubleClick()
+
     await LoginPage.arrangeDate.click()
     await browser.pause(6000)
-    await LoginPage.TakeRecentRequest2.click()
+    await LoginPage.TakeRecentRequest.click()
     // browser.pause(10000)
     // await expect(LoginPage.verifyOutScopeTeamPage1).toBeExisting();
 });
 
 Then(/^click on take button for recent request3$/, async () => {
     await browser.pause(6000)
+    await LoginPage.arrangeDate.doubleClick()
+
     await LoginPage.arrangeDate.click()
     await browser.pause(6000)
     await LoginPage.TakeRecentRequest3.click()
@@ -571,6 +604,8 @@ Then(/^click on take button for recent request3$/, async () => {
 
 Then(/^click on take button for recent request4$/, async () => {
     await browser.pause(6000)
+    await LoginPage.arrangeDate.doubleClick()
+
     await LoginPage.arrangeDate.click()
     await browser.pause(6000)
     await LoginPage.TakeRecentRequest4.click()
@@ -611,8 +646,36 @@ Then(/^click on reassign and select green team$/, async () => {
     await browser.pause(4000)
     await LoginPage.ReassignRequest.click()  
     await browser.pause(10000)
-    await LoginPage.ClickDropRequest.click()   
+    if(expect(LoginPage.ClickDropRequest).toBeExisting()){}
+    await LoginPage.ClickDropRequest.click() 
+    await browser.pause(4000)
+  
     await LoginPage.SelectGreenTeam.click()
+    await browser.pause(10000)
+
+});
+
+Then(/^click on reassign and select team$/, async () => {
+    await browser.pause(4000)
+    await LoginPage.ReassignRequest.click()  
+    await browser.pause(1000)
+    try {         
+            await browser.pause(4000)    
+            await LoginPage.ClickDropRequest.click() 
+            await browser.pause(4000)  
+            await LoginPage.SelectGreenTeam.click()
+            await browser.pause(4000)           
+            await expect(LoginPage.ReassignRequest).toHaveTextContaining(Reassign);
+              
+    } catch (err) {    
+        await LoginPage.ClickDropRequest.click() 
+        // await browser.pause(4000)  
+        await LoginPage.SelectBlueTeam.click()
+        // await LoginPage.SelectGreenTeam.click()
+        await browser.pause(6000) 
+    }
+    
+
 });
 
 Then(/^click on edit and select request type$/, async () => {
@@ -705,9 +768,9 @@ Then(/^click on send email and create case$/, async () => {
 });
 
 Then(/^click on download$/, async () => {
-    await browser.pause(4000)    
+    await browser.pause(3000)    
     await LoginPage.DownloadSendEmail.click() 
-    await browser.pause(10000)    
+    // await browser.pause(10000)    
 
 });
 
@@ -802,21 +865,15 @@ Then(/^Enter Record of conversation$/, async () => {
     await LoginPage.recordName.addValue('recordName')
 });
 
-Then(/^User on email reference number page$/, async () => {
-    await browser.pause(4000)  
-    await LoginPage.EmailBtn.click();
-});
 
-Then(/^User on phone reference number page$/, async () => {
-    await browser.pause(4000)  
-    if(expect(LoginPage.EmailBtn).toBeDisplayed()){
-        await browser.pause(4000)          
-        await LoginPage.PhoneBtn.click();
-    }
-    else{
-    // await LoginPage.arrangeDate.click()
-    // await browser.pause(6000)
-    // await LoginPage.TakeRecentRequest.click()
+Then(/^User on email reference number page$/, async () => {
+    try{ 
+        // browser.refresh();
+        // await browser.pause(10000)            
+        await LoginPage.EmailBtn.click();
+        await browser.pause(4000)     
+      } 
+    catch(er){
     await browser.pause(6000)
     await LoginPage.editRequest.click()  
     await browser.pause(4000)
@@ -830,12 +887,9 @@ Then(/^User on phone reference number page$/, async () => {
     await browser.pause(4000)    
     await LoginPage.SaveEdit.click() 
     await browser.pause(4000)  
-
     await LoginPage.OneAndDoneBtn.click() 
-    await browser.pause(4000) 
-    await LoginPage.PhoneBtn.click()
-    await browser.pause(4000) 
-    }
+   
+}
 });
 
 Then(/^click on Reject$/, async () => {
@@ -844,13 +898,18 @@ Then(/^click on Reject$/, async () => {
 });
 
 Then(/^select the reason and send mail$/, async () => {
+    // try{
     await browser.pause(4000)  
     await LoginPage.ClickReasonBtn.click();
+    browser.saveScreenshot('error.png')
     await browser.pause(4000) 
     await LoginPage.SelectReasonBtn.click();
     await browser.pause(4000)  
     await LoginPage.SendEmailBtn.click();
-  
+    
+//  } catch(err){
+//         return false
+//     }
 });
 
 Then(/^Click on Settings tool Icon$/, async () => {

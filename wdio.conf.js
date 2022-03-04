@@ -41,7 +41,7 @@ exports.config = {
 
         memberScreen: ['./features/MemberScreen_Feature/*.feature'],
         adminScreen: ['./features/Admin_Feature/*.feature'],
-        singlecheck: ['./features/Admin_Feature/Milestone9/TC_Reporting_001.feature'],
+        singlecheck: ['./features/Admin_Feature/Milestone8/TC_Reassign_Request_001.feature'],
     },
     //
     // ============
