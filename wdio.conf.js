@@ -41,7 +41,7 @@ exports.config = {
 
         memberScreen: ['./features/MemberScreen_Feature/*.feature'],
         adminScreen: ['./features/Admin_Feature/*.feature'],
-        singlecheck: ['./features/Admin_Feature/Milestone8/TC_Reassign_Request_001.feature'],
+        singlecheck: ['./features/Admin_Feature/Milestone9/TC_Client_settings_002.feature'],
     },
     //
     // ============
@@ -74,13 +74,14 @@ exports.config = {
         //
         browserName: 'chrome',
         acceptInsecureCerts: true,
-
+//for headless run
         // 'goog:chromeOptions': {
         //     // to run chrome headless the following flags are required
         //     // (see https://developers.google.com/web/updates/2017/04/headless-chrome)
-        //     // args: ['--headless', '--disable-gpu'],
+        //      args: ['--headless', '--disable-gpu'],
         //     }
-        
+//for headless run
+      
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs

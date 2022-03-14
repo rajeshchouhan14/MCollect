@@ -38,9 +38,9 @@ Then(/^click on blue button$/, async () => {
 });
 
 When(/^Click on get in touch button$/, async () => {
-    await browser.pause(5000)
+    await browser.pause(7000)
     await expect(LoginPage.TouchBtn).toExist()
-    // browser.saveScreenshot('TouchBtnerror.png')
+    browser.saveScreenshot('TouchBtnerror.png')
 
     await LoginPage.TouchBtn.click()
 });
@@ -63,8 +63,9 @@ When(/^click on donot know button$/, async () => {
     await LoginPage.donotKnowBtn.click()
 });
 When(/^click on button Submit request with a reference$/, async () => {
+    await browser.pause(6000)
     await browser.refresh()
-    await browser.pause(1000)
+    await browser.pause(6000)
     await expect(LoginPage.requestBtn).toExist()  
     // browser.saveScreenshot('requestBtnerror.png')
 
@@ -500,20 +501,52 @@ Then(/^click on take button for green team request$/, async () => {
 });
 
 Then(/^click on take button for contactTpt team request$/, async () => {
-    await browser.pause(4000)
-    await LoginPage.arrangeDate.click()
-    await browser.pause(4000)
-    await LoginPage.TakeContactTpt.click()
-    // browser.pause(10000)
-    await expect(LoginPage.verifyGreenTeamPage).toBeExisting();
+    // await browser.pause(4000)
+    // await LoginPage.arrangeDate.click()
+    // await browser.pause(4000)
+    // await LoginPage.TakeContactTpt.click()
+    // // browser.pause(10000)
+    // await expect(LoginPage.verifyGreenTeamPage).toBeExisting();
+
+    try{  
+        // await browser.pause(6000)
+        await LoginPage.arrangeDate.click()
+        await browser.pause(4000)
+        await LoginPage.TakeContactTpt.click()
+       // await browser.pause(4000)
+       await expect(LoginPage.verifyGreenTeamPage).toBeExisting();
+
+   
+       } catch(err){   
+       await LoginPage.arrangeDate.click()
+       // await browser.pause(4000)
+       await LoginPage.TakeContactTpt.click()  
+       }
+
 });
 
 Then(/^click on take button for blue team with InScope request$/, async () => {
-    await browser.pause(4000)
-    await LoginPage.arrangeDate.click()
-    await LoginPage.TakeBlueInScope.click()
-    browser.pause(10000)
-    await expect(LoginPage.verifyInScopeTeamPage).toBeExisting();
+    // await browser.pause(4000)
+    // await LoginPage.arrangeDate.click()
+    // await LoginPage.TakeBlueInScope.click()
+    // browser.pause(10000)
+    // await expect(LoginPage.verifyInScopeTeamPage).toBeExisting();
+
+    
+    try{  
+        // await browser.pause(6000)
+        await LoginPage.arrangeDate.click()
+        await browser.pause(4000)
+        await LoginPage.TakeBlueInScope.click()
+        await browser.pause(4000)
+        await expect(LoginPage.verifyInScopeTeamPage).toBeExisting();
+
+   
+       } catch(err){   
+       await LoginPage.arrangeDate.click()
+       // await browser.pause(4000)
+       await LoginPage.TakeBlueInScope.click()  
+       }
 });
 
 Then(/^Create case for Selected Request$/, async () => {
@@ -533,26 +566,44 @@ Then(/^click on take button for green team with InScope request$/, async () => {
 });
 
 Then(/^click on take button for green team InScope request$/, async () => {
-    await browser.pause(6000)
-    await LoginPage.arrangeDate.click()
-    await browser.pause(6000)
-    await LoginPage.TakeBlueInScope.click()
+    // await browser.pause(6000)
+    // await LoginPage.arrangeDate.click()
+    // await browser.pause(6000)
+    // await LoginPage.TakeBlueInScope.click()
     // browser.pause(10000)
-    // await expect(LoginPage.verifyOutScopeTeamPage1).toBeExisting();
-});
+
+    try{  
+         await browser.pause(6000)
+         await LoginPage.arrangeDate.click()
+         await browser.pause(4000)
+         await LoginPage.TakeBlueInScope.click()
+        // await browser.pause(4000)
+    
+        } catch(err){   
+        await LoginPage.arrangeDate.click()
+        // await browser.pause(4000)
+        await LoginPage.TakeBlueInScope.click()  
+        }
+        });
+
+
 
 Then(/^click on take button for recent request21$/, async () => {
     try{
     //  await LoginPage.arrangeDate.doubleClick()
-     await LoginPage.arrangeDate.click()
+    await browser.pause(7000)
 
-    // await browser.pause(4000)
-    await LoginPage.TakeRecentRequest.click()
-    // await browser.pause(4000)
+     await LoginPage.arrangeDate.click()
+     await browser.pause(4000)
+
+     await LoginPage.TakeRecentRequest.click()
 
     } catch(err){   
+     await browser.pause(4000)
+
     await LoginPage.arrangeDate.click()
-    // await browser.pause(4000)
+    await browser.pause(4000)
+
     await LoginPage.TakeRecentRequest.click()  
     }
     });
@@ -665,13 +716,12 @@ Then(/^click on reassign and select team$/, async () => {
             await browser.pause(4000)  
             await LoginPage.SelectGreenTeam.click()
             await browser.pause(4000)           
-            await expect(LoginPage.ReassignRequest).toHaveTextContaining(Reassign);
+            // await expect(LoginPage.ReassignRequest).toHaveTextContaining(Reassign);
               
     } catch (err) {    
         await LoginPage.ClickDropRequest.click() 
-        // await browser.pause(4000)  
+        await browser.pause(4000)  
         await LoginPage.SelectBlueTeam.click()
-        // await LoginPage.SelectGreenTeam.click()
         await browser.pause(6000) 
     }
     
@@ -768,10 +818,17 @@ Then(/^click on send email and create case$/, async () => {
 });
 
 Then(/^click on download$/, async () => {
-    await browser.pause(3000)    
-    await LoginPage.DownloadSendEmail.click() 
-    // await browser.pause(10000)    
-
+    
+    await browser.pause(6000) 
+// try{
+//     await LoginPage.DownloadSendEmail.click() 
+//     // await browser.pause(6000) 
+//    }
+// catch(err){
+//     await browser.pause(6000)   
+//     await LoginPage.DownloadSendEmail.click() 
+//     // await browser.pause(6000)    
+// }
 });
 
 Then(/^Select member name$/, async () => {
@@ -867,28 +924,31 @@ Then(/^Enter Record of conversation$/, async () => {
 
 
 Then(/^User on email reference number page$/, async () => {
-    try{ 
+    try{            
+      
         // browser.refresh();
-        // await browser.pause(10000)            
+        await browser.pause(1000) 
         await LoginPage.EmailBtn.click();
-        await browser.pause(4000)     
+        await browser.pause(4000)  
+      
       } 
     catch(er){
-    await browser.pause(6000)
-    await LoginPage.editRequest.click()  
-    await browser.pause(4000)
-    await LoginPage.RequestEdit.click()
-    await browser.pause(4000) 
-    await LoginPage.SelectEditrequestType.click()
-    await browser.pause(4000)
-    await LoginPage.SchemeEdit.click() 
-    await browser.pause(4000)
-    await LoginPage.SelectEditSchemeType.click()
-    await browser.pause(4000)    
-    await LoginPage.SaveEdit.click() 
-    await browser.pause(4000)  
-    await LoginPage.OneAndDoneBtn.click() 
-   
+          
+        await browser.pause(6000)
+        await LoginPage.editRequest.click()  
+        await browser.pause(4000)
+        await LoginPage.RequestEdit.click()
+        await browser.pause(4000) 
+        await LoginPage.SelectEditrequestType.click()
+        await browser.pause(4000)
+        await LoginPage.SchemeEdit.click() 
+        await browser.pause(4000)
+        await LoginPage.SelectEditSchemeType.click()
+        await browser.pause(4000)    
+        await LoginPage.SaveEdit.click() 
+        await browser.pause(4000)  
+        await LoginPage.OneAndDoneBtn.click() 
+       
 }
 });
 
@@ -913,7 +973,7 @@ Then(/^select the reason and send mail$/, async () => {
 });
 
 Then(/^Click on Settings tool Icon$/, async () => {
-    await browser.pause(4000)  
+    await browser.pause(6000)  
     await LoginPage.AdminBtn.click();
     await browser.pause(4000)  
 

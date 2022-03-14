@@ -149,7 +149,7 @@ class LoginPage extends Page {
     }
     
     get TakeBlueInScope() {
-        return $('(//div[text()="blue"]/../../../td[2]//div[text()="Scope: In"]/../../../td[10]/button)[1]');
+        return $('(//div[text()="blue"])[1]');
         
     }
     
@@ -757,7 +757,7 @@ class LoginPage extends Page {
         
     }
     get SelectReasonBtn() {
-        return $('(//span[@class="brighter-option__text"])[3]');
+        return $('(//span[@class="brighter-option__text"])[1]');
         
     }
     get SendEmailBtn() {
