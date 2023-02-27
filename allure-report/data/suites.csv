@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jan 19 10:47:49 IST 2023","Thu Jan 19 10:49:31 IST 2023","102169","","Verify Mass Upload page access as Record Keeper & Consultant","","Verify Mass Upload page access as Record Keeper & Consultant","Any user other than Fund Manager logs into the application","Any user other than Fund Manager logs into the application",""
+"passed","Mon Jan 23 11:18:03 IST 2023","Mon Jan 23 11:19:45 IST 2023","101798","","Verify Mass Upload page access as Fund manager","","Verify Mass Upload page access as Fund manager","Fund Manager user logs into the application","Fund Manager user logs into the application",""

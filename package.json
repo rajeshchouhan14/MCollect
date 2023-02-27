@@ -1,43 +1,41 @@
 {
-  "name": "cmaautomation",
+  "name": "mcollectautomation",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "report": "allure generate allure-results --clean && allure open -h localhost",
-    "member": "npx wdio wdio.conf.js --suite memberScreen",
-    "admin": "npx wdio wdio.conf.js --suite adminScreen",
-    "checker": "npx wdio wdio.conf.js --suite singlecheck",
-    "milestone1": "npx wdio wdio.conf.js --suite Milestone1",
-    "milestone2": "npx wdio wdio.conf.js --suite Milestone2",
-    "milestone3": "npx wdio wdio.conf.js --suite Milestone3",
-    "milestone4": "npx wdio wdio.conf.js --suite Milestone4",
-    "milestone5": "npx wdio wdio.conf.js --suite Milestone5",
-    "milestone6": "npx wdio wdio.conf.js --suite Milestone6",
-    "milestone7": "npx wdio wdio.conf.js --suite Milestone7",
-    "milestone8": "npx wdio wdio.conf.js --suite Milestone8",
-    "milestone9": "npx wdio wdio.conf.js --suite Milestone9",
+    "MCollect": "npx wdio wdio.conf.js --suite MercerCollectMilestone31",
+    "milestone1": "npx wdio wdio.conf.js --suite MercerCollectM1",
+    "milestone2": "npx wdio wdio.conf.js --suite MercerCollectM2",
+    "milestone3": "npx wdio wdio.conf.js --suite MercerCollectM3",
+    "milestone4": "npx wdio wdio.conf.js --suite MercerCollectM4",
+    "milestone5": "npx wdio wdio.conf.js --suite MercerCollectM5",
+    "Regression": "npm run milestone1 && npm run milestone3 && npm run report",
     "test": "npx wdio wdio.conf.js",
-    "Milestone" : "npm run milestone1 && npm run milestone2 && npm run milestone3 && npm run milestone4 && npm run milestone5 && npm run milestone6 && npm run milestone7 && npm run milestone8 && npm run milestone9 && npm run report",
-    "Milestone1" : "npm run milestone1 && npm run milestone2 && npm run milestone3 && npm run milestone4 && npm run milestone5",
-    "Milestone2" :"npm run milestone6 && npm run milestone7 && npm run milestone8 && npm run milestone9"
- 
+    "Sanity": "npm run test -- --cucumberOpts.tagExpression='@Sanity' ",
+    "Regression1": "npm run test -- --cucumberOpts.tagExpression='@Regression' "
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "webdriverio": "^7.16.12"
+    "multiple-cucumber-html-reporter": "^3.1.0",
+    "package": "^1.0.1",
+    "selenium-webdriver": "^4.7.1",
+    "uuid": "^9.0.0",
+    "webdriverio": "^8.2.0"
   },
   "devDependencies": {
-    "@wdio/allure-reporter": "^7.16.11",
-    "@wdio/cli": "^7.16.12",
-    "@wdio/cucumber-framework": "^7.16.12",
-    "@wdio/local-runner": "^7.16.12",
-    "@wdio/spec-reporter": "^7.16.11",
-    "allure-commandline": "^2.17.2",
-    "chromedriver": "99.0.0",
-    "cucumber-html-reporter": "^5.4.0",
-    "wdio-chromedriver-service": "^7.2.8",
-    "wdio-cucumberjs-json-reporter": "^2.0.2"
+    "@wdio/allure-reporter": "^8.2.0",
+    "@wdio/cli": "^8.2.0",
+    "@wdio/cucumber-framework": "^8.2.0",
+    "@wdio/local-runner": "^8.2.0",
+    "@wdio/spec-reporter": "^8.1.2",
+    "allure-commandline": "^2.20.1",
+    "chromedriver": "^109.0.0",
+    "cucumber-html-reporter": "^5.5.0",
+    "fs-extra": "^11.1.0",
+    "wdio-chromedriver-service": "^8.0.1",
+    "wdio-cucumberjs-json-reporter": "^4.4.3"
   }
 }

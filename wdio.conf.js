@@ -1,4 +1,3 @@
-
 exports.config = {
     //
     // ====================
@@ -28,20 +27,32 @@ exports.config = {
     exclude: [
         // 'path/to/excluded/files'
     ],
-    suites:{
-        Milestone1: ['./features/MemberScreen_Feature/Milestone1/*.feature'],
-        Milestone2: ['./features/MemberScreen_Feature/Milestone2/*.feature'],
-        Milestone3: ['./features/MemberScreen_Feature/Milestone3/*.feature'],
-        Milestone4: ['./features/Admin_Feature/Milestone4/*.feature'],
-        Milestone5: ['./features/Admin_Feature/Milestone5/*.feature'],
-        Milestone6: ['./features/Admin_Feature/Milestone6/*.feature'],
-        Milestone7: ['./features/Admin_Feature/Milestone7/*.feature'],
-        Milestone8: ['./features/Admin_Feature/Milestone8/*.feature'],
-        Milestone9: ['./features/Admin_Feature/Milestone9/*.feature'],
 
-        memberScreen: ['./features/MemberScreen_Feature/*.feature'],
-        adminScreen: ['./features/Admin_Feature/*.feature'],
-        singlecheck: ['./features/Admin_Feature/Milestone9/TC_Client_settings_002.feature'],
+    suites: {
+        MercerCollect: ['./features/login.feature'],
+        MercerCollectM1: ['./features/Milestone1/MCollectLogin.feature'],
+        MercerCollectM2: ['./features/Milestone1/DashboardPage.feature'],
+        MercerCollectM3: ['./features/Milestone1/DatasourceFM.feature'],
+        MercerCollectM4: ['./features/Milestone1/VerifyAddedActiveUser.feature'],
+        MercerCollectM5: ['./features/Milestone1/VerifyAddedInActiveUser.feature'],
+
+        MercerCollectMilestone21: ['./features/Milestone2/AdminportalAccess.feature'],
+        MercerCollectMilestone22: ['./features/Milestone2/ConsultantportalAccess.feature'],
+        MercerCollectMilestone23: ['./features/Milestone2/CSOAnalystportalAccess.feature'],
+        MercerCollectMilestone24: ['./features/Milestone2/DOTportalAccess.feature'],
+        MercerCollectMilestone25: ['./features/Milestone2/FieldAnalystportalAccess.feature'],
+        MercerCollectMilestone26: ['./features/Milestone2/FMportalAccess.feature'],
+        MercerCollectMilestone27: ['./features/Milestone2/PROanalystportalAccess.feature'],
+        MercerCollectMilestone28: ['./features/Milestone2/RKportalAccess.feature'],
+
+
+        MercerCollectMilestone31: ['./features/Milestone3/FMMassUploadValidation.feature'],
+        MercerCollectMilestone32: ['./features/Milestone3/MultipleExternalUserLogin.feature'],
+        MercerCollectMilestone33: ['./features/Milestone3/RKMassUploadValidation.feature'],
+        MercerCollectMilestone34: ['./features/Milestone3/UploadHistory.feature'],
+
+        MercerCollectMilestone41: ['./features/Milestone4/.feature'],
+
     },
     //
     // ============
@@ -66,22 +77,14 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-    
+
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
         maxInstances: 5,
         //
         browserName: 'chrome',
-        acceptInsecureCerts: true,
-//for headless run
-        // 'goog:chromeOptions': {
-        //     // to run chrome headless the following flags are required
-        //     // (see https://developers.google.com/web/updates/2017/04/headless-chrome)
-        //      args: ['--headless', '--disable-gpu'],
-        //     }
-//for headless run
-      
+        acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
@@ -118,8 +121,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://localhost',
-    baseUrl1: 'https://mmcglobalind-my.sharepoint.com/personal/rajesh_chouhan_mmc_com/_layouts/15/onedrive.aspx',
+    baseUrl: 'https://digicon.us-east-1.dev.awsapp.mercer.com/',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -135,8 +137,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-     services: ['chromedriver'],
-    // services: ['selenium-standalone-service'],
+    services: ['chromedriver'],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -158,61 +159,17 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-
-
+    // reporters: ['spec'],
 
     reporters: ['spec',
-    ['allure',
-    {outputDir: 'allure-results',            
-    disableWebdriverStepsReporting: false,
-    disableWebdriverScreenshotsReporting: false,
-    useCucumberStepReporter: true,
- }]],
-
-//  reporters: ['spec',
-//     ['allure',
-//     {outputDir: 'allure-results',            
-//     disableWebdriverStepsReporting: false,
-//     disableWebdriverScreenshotsReporting: false,
-//     useCucumberStepReporter: true,
-//  }],
- 
-//  [
-//     'junit',
-//     {
-//     outputDir: './JReports',
-//     outputFileFormat: function (options)
-//     {
-//     return `results-${ new Date().getTime()}.xml`;
-//     },
-//     },
-// ]
-// ],
-
-
-
-
- 
-//  reporters: [
-
-//     'spec',
-
-//     [ 'cucumberjs-json', {
-
-//       jsonFolder: 'reports/cucumberjs-json/',
-
-//       language: 'en',
-
-//       disableWebdriverStepsReporting: true,
-
-//       disableWebdriverScreenshotsReporting: false
-
-//     },
-
-//     ],
-
-// ],
-
+        ['allure',
+            {
+                outputDir: 'allure-results',
+                disableWebdriverStepsReporting: false,
+                disableWebdriverScreenshotsReporting: false,
+                useCucumberStepReporter: true,
+            }],
+    ],
 
     //
     // If you are using Cucumber you need to specify the location of your step definitions.
@@ -238,10 +195,9 @@ exports.config = {
         // <number> timeout for step definitions
         timeout: 60000,
         // <boolean> Enable this config to treat undefined definitions as warnings.
-        ignoreUndefinedDefinitions: false,
-        format: ['pretty'],
+        ignoreUndefinedDefinitions: false
     },
-    
+
     //
     // =====
     // Hooks
@@ -257,33 +213,25 @@ exports.config = {
      */
     // onPrepare: function (config, capabilities) {
     // },
-    
-// onPrepare: function (config, capabilities)
-//  {     // delete the report before each test run   
-//        removeSync('reports/cucumberjs-json/'); 
-//           removeSync('reports/multiple-cucumber-html-reporter/');  
-//           removeSync('reports/cucumber-report/');   
-//          //Extract the environment from the CLI arguments  
-//            if (process.argv !== undefined && process.argv.length) {    
-//                process.argv.forEach(arg => {         
-//                       if (arg.indexOf('--env=') !== -1) { 
-//                                        process.env.env = arg.replace('--env=', '');  
-//                                   }        });      }      
-//                     console.log("Environment : " +  process.env.env) 
-//                    },
-
-
-
     /**
      * Gets executed before a worker process is spawned and can be used to initialise specific service
      * for that worker as well as modify runtime environments in an async fashion.
      * @param  {String} cid      capability id (e.g 0-0)
      * @param  {[type]} caps     object containing capabilities for session that will be spawn in the worker
      * @param  {[type]} specs    specs to be run in the worker process
-     * @param  {[type]} args     object that will be merged with the main configuration once worker is initialised
+     * @param  {[type]} args     object that will be merged with the main configuration once worker is initialized
      * @param  {[type]} execArgv list of string arguments passed to the worker process
      */
     // onWorkerStart: function (cid, caps, specs, args, execArgv) {
+    // },
+    /**
+     * Gets executed just after a worker process has exited.
+     * @param  {String} cid      capability id (e.g 0-0)
+     * @param  {Number} exitCode 0 - success, 1 - fail
+     * @param  {[type]} specs    specs to be run in the worker process
+     * @param  {Number} retries  number of retries used
+     */
+    // onWorkerEnd: function (cid, exitCode, specs, retries) {
     // },
     /**
      * Gets executed just before initialising the webdriver session and test framework. It allows you
@@ -370,19 +318,6 @@ exports.config = {
      */
     // afterFeature: function (uri, feature) {
     // },
-    
-afterTest: function(
-    test,
-    context,
-    {error,result,duration,passed,retries}
-    ){
-        if(error){
-            
-        var name = 'ERROR-chrome-' + Date.now()
-        browser.takeScreenshot('./errorShots/' + name + '.png')
-        // browser.takeScreenshot();
-    }
-    },
 
     /**
      * Runs after a WebdriverIO command gets executed
@@ -418,70 +353,13 @@ afterTest: function(
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {<Object>} results object containing test results
      */
-    // //  onComplete: function (exitCode, config, capabilities, results) {
-
-    // //     // Generate the report when it all tests are done
-
-    // //     // eslint-disable-next-line @typescript-eslint/no-unsafe-call
-
-    // //     generate({
-
-    // //       // Required
-
-    // //       // This part needs to be the same path where you store the JSON files
-
-    // //       // default = '.tmp/json/'
-
-    // //       jsonDir: 'reports/cucumberjs-json/',
-
-    // //       reportPath: 'reports/multiple-cucumber-html-reporter/',
-
-    // //       // openReportInBrowser should browseToThisPage the report automatically but it is not consistent so disabling
-
-    // //       openReportInBrowser: 'false',
-
-    // //       saveCollectedJSON : true,
-
-    // //       pageTitle: 'CMA report',
-
-    // //       reportName: 'CMA report',
-
-    // //       // to blank out the standard footer
-
-    // //       pageFooter: '<div><p>&nbsp;</p></div>',
-
-    // //       displayDuration: 'true',
-
-    // //       durationInMS: 'true',
-
-    // //       // for more options see https://github.com/wswebcreation/multiple-cucumber-html-reporter#options
-
-    // //     });
-
-
-
-    //     var reporter = require('cucumber-html-reporter');
-
-    //     var options = {
-
-    //       theme: 'bootstrap',
-
-    //       jsonFile: 'reports/multiple-cucumber-html-reporter/merged-output.json',
-
-    //       output: 'reports/cucumber-report/MercerTimeTestExecutionReport.html',
-
-    //       reportSuiteAsScenarios: true
-
-    //     };
-
-    //     reporter.generate(options);
-
-    //   },
+    // onComplete: function(exitCode, config, capabilities, results) {
+    // },
     /**
     * Gets executed when a refresh happens.
     * @param {String} oldSessionId session ID of the old session
     * @param {String} newSessionId session ID of the new session
     */
-    //onReload: function(oldSessionId, newSessionId) {
-    //}
+    // onReload: function(oldSessionId, newSessionId) {
+    // }
 }
